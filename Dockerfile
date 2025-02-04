@@ -1,4 +1,4 @@
-ARG IMAGE=intersystemsdc/iris-community
+ARG IMAGE=containers.intersystems.com/intersystems/iris-community:2024.3
 FROM $IMAGE as builder
 
 WORKDIR /home/irisowner/dev
@@ -21,8 +21,14 @@ ENV PATH "/usr/irissys/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sb
 
 COPY .iris_init /home/irisowner/.iris_init
 
+USER root
+
+# RUN pipx install -r requirements.txt
+
+USER ${ISC_PACKAGE_MGRUSER}
+
 RUN --mount=type=bind,src=.,dst=. \
-    pip3 install -r requirements.txt && \
+    pip3 install -r requirements.txt --break-system-packages && \
     iris start IRIS && \
 	iris session IRIS < iris.script && \
     ([ $TESTS -eq 0 ] || iris session iris -U $NAMESPACE "##class(%ZPM.PackageManager).Shell(\"test $MODULE -v -only\",1,1)") && \

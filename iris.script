@@ -17,6 +17,10 @@
 
     zn "IRISAPP"
 
+    set sc = ##class(App.Installer).setup()
+
+    do $SYSTEM.OBJ.LoadDir("/home/irisowner/dev/src/GraphKB/","ck",,1)
+
     // Create /_vscode web app to support intersystems-community.testingmanager VS Code extension
     zpm "install vscode-per-namespace-settings"
 
