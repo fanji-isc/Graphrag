@@ -1,1 +1,3 @@
-
+numpy
+pandas
+sentence_transformers

@@ -7,7 +7,7 @@
       <Description>Basic InterSystems IRIS Development Template</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="graphrag.PKG"/>
+      <Resource Name="GraphKB.PKG"/>
     </Module>
   </Document>
 </Export>
