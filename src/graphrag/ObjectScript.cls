@@ -1,4 +1,4 @@
-Class dc.sample.ObjectScript
+Class graphrag.ObjectScript
 {
 
 ClassMethod Test() As %Status

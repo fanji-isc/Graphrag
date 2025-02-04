@@ -9,7 +9,19 @@ services:
     command: --check-caps false --ISCAgent false
     ports:
       - 1972
-      - 52773
+      - 9092:52773
       - 53773
     volumes:
       - ./:/home/irisowner/dev
+  jupyter:
+    image: iscetchenko/iris-jupyter:latest
+    hostname: jupyter
+    container_name: jupyter
+    entrypoint: jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
+    ports:
+    - "4200:8888"
+    - "4201:6006"
+    volumes:
+    - type: bind
+      source: ./workspace
+      target: /home/jovyan/workspace
