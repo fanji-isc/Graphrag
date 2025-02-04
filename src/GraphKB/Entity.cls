@@ -7,6 +7,26 @@ Property entityid As %Library.String(MAXLEN = 100);
 
 Property type As %Library.String(MAXLEN = 1000);
 
+ClassMethod LoadData(filepath As %Library.String, purge As %Library.Integer = 1) As %Status
+{
+    // purge - Whether to clean the table of previously loaded data; default to 1.
+    if purge { // purge data
+        set myquery = "TRUNCATE TABLE GraphKB.Entity"
+        set tStatement = ##class(%SQL.Statement).%New()
+        $$$ThrowOnError(tStatement.%Prepare(myquery))
+        set rset = tStatement.%Execute()
+    }
+
+    set myquery = "LOAD DATA FROM FILE '"_filepath_"' INTO GraphKB.Entity USING {""from"":{""file"":{""header"":true}}}"
+    set tStatement = ##class(%SQL.Statement).%New()
+    $$$ThrowOnError(tStatement.%Prepare(myquery))
+    set rset = tStatement.%Execute()
+    if (rset.%SQLCODE < 0) {
+        throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
+    }
+    return rset
+}
+
 Storage Default
 {
 <Data name="EntityDefaultData">

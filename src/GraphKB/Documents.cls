@@ -11,6 +11,26 @@ Property url As %Library.String(MAXLEN = 1000);
 
 Property authors As %Library.String(MAXLEN = 1000);
 
+ClassMethod LoadData(filepath As %Library.String, purge As %Library.Integer = 1) As %Status
+{
+    // purge - Whether to clean the table of previously loaded data; default to 1.
+    if purge { // purge data
+        set myquery = "TRUNCATE TABLE GraphKB.Documents"
+        set tStatement = ##class(%SQL.Statement).%New()
+        $$$ThrowOnError(tStatement.%Prepare(myquery))
+        set rset = tStatement.%Execute()
+    }
+
+    set myquery = "LOAD DATA FROM FILE '"_filepath_"' INTO GraphKB.Documents USING {""from"":{""file"":{""header"":true}}}"
+    set tStatement = ##class(%SQL.Statement).%New()
+    $$$ThrowOnError(tStatement.%Prepare(myquery))
+    set rset = tStatement.%Execute()
+    if (rset.%SQLCODE < 0) {
+        throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
+    }
+    return rset
+}
+
 Storage Default
 {
 <Data name="DocumentsDefaultData">

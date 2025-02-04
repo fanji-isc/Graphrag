@@ -1,14 +1,12 @@
 Class GraphKB.Query Extends %RegisteredObject
 {
 
-ClassMethod GetTopK(kCount As %Integer, userQuery As %String, source As %String = "Entity") As %String
+ClassMethod GetTopK(source As %String = "Graph", userQuery As %String, kCount As %Integer, sematicSearchCount As %Integer = 0) As %String
 {
     set sc = $$$OK
     try {
-        set sourceField=$s(source="Entity":"entityid",source="Documents":"abstract")
-        
         // Set up SQL Query to get whatever fields you want, joined on the embeddings
-        if source="Entity" { // Graph Search
+        if ",Entity,Combined"[source { // Graph Search
             set myEntityQuery = "SELECT TOP ? entity.entityid FROM GraphKB.EntityEmbeddings emb JOIN GraphKB.Entity entity ON emb.ID = entity.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
             set tEntityStatement = ##class(%SQL.Statement).%New()
             $$$ThrowOnError(tEntityStatement.%Prepare(myEntityQuery))
@@ -26,7 +24,7 @@ ClassMethod GetTopK(kCount As %Integer, userQuery As %String, source As %String 
             while rsetEntity.%Next(){
                 set entityList = $s($d(entityList):entityList,1:"")_$lb(rsetEntity.%Get("entityid"))    
             }
-            set myquery = "SELECT TOP ? docs.abstract FROM GraphKB.Relations rel JOIN GraphKB.Documents docs ON rel.docid=docs.docid WHERE rel.source %INLIST ? OR rel.target %INLIST ? GROUP BY rel.docid ORDER by count(rel.docid) DESC " /// UNION SELECT TOP ? docs.abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+            set myquery = "SELECT TOP ? docs.abstract FROM GraphKB.Relations rel JOIN GraphKB.Documents docs ON rel.docid=docs.docid WHERE rel.source %INLIST ? OR rel.target %INLIST ? GROUP BY rel.docid ORDER by count(rel.docid) DESC UNION SELECT TOP ? docs.abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
         } elseif source = "Documents" { // Semantic search 
             set myquery = "SELECT TOP ? docs.abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
 
@@ -39,7 +37,7 @@ ClassMethod GetTopK(kCount As %Integer, userQuery As %String, source As %String 
         
         // Execute SQL
         //kCount,userQueryEmbedding
-        set rset = $s(source="Entity":tStatement.%Execute(kCount,entityList,entityList),source="Documents":tStatement.%Execute(kCount, userQueryEmbedding))
+        set rset = $s(source="Combined":tStatement.%Execute(kCount,entityList,entityList,sematicSearchCount,userQueryEmbedding),source="Graph":tStatement.%Execute(kCount,entityList,entityList,0,userQueryEmbedding),source="Documents":tStatement.%Execute(kCount, userQueryEmbedding))
         if (rset.%SQLCODE < 0) {
             throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
         }
