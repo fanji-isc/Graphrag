@@ -23,8 +23,13 @@ Open the terminal in this directory and call the command to build and run the tw
 $ docker-compose up -d
 ```
 
-The jupyter notebook should be accessible through: [http://localhost:4200](http://localhost:4200)
+*Note: this may take a while*
+
+
+The jupyter notebook that contains our graphrag implementation is accessible in the following link after starting docker: [http://localhost:4200/lab/tree/workspace/graphkb-dataprep.ipynb](http://localhost:4200/lab/tree/workspace/graphkb-dataprep.ipynb)
 
 **Password:** admin
 
 The IRIS management portal should be accessible through: [http://localhost:9092/csp/sys/UtilHome.csp](http://localhost:9092/csp/sys/UtilHome.csp)
+
+The IRIS code that we are using is in the src/GraphKB folder
