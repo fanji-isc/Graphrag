@@ -1,0 +1,6 @@
+flask>=2.2.0
+werkzeug>=2.3.0
+langchain
+langchain_openai
+intersystems-irispython
+iris

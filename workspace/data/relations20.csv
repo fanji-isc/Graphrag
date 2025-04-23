@@ -1,8 +1,5 @@
 docid|source|sourcetype|target|targettype|type
-0|Early Phase Clinical Trial|Topic|Phase I Trials|Topic|RELATED_TO
-0|Phase I Trials|Topic|Cytotoxic Agents|Topic|RELATED_TO
-0|Bayesian Early Phase Trial Designs|Topic|Early Phase Clinical Trial|Topic|DISCUSSES
-0|Bayesian Early Phase Trial Designs|Topic|Peter F. Thall|Author|AUTHORED
+0|Bayesian Models And Decision Algorithms For Complex Early Phase Clinical Trials|Topic|Peter F. Thall|Author|AUTHORED
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Tianyu Zhan|Author|AUTHORED
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Yiwang Zhou|Author|AUTHORED
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Ziqian Geng|Author|AUTHORED
@@ -11,31 +8,44 @@ docid|source|sourcetype|target|targettype|type
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Li Wang|Author|AUTHORED
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Xiaohong Huang|Author|AUTHORED
 1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Elizabeth H. Slate|Author|AUTHORED
-2|Pilot Studies Of Structured Treatment Interruptions (Sti) In Hiv Therapy|Topic|Hiv Therapy|Topic|RELATED_TO
+2|Pilot Studies Of Structured Treatment Interruptions In Hiv Therapy|Topic|Hiv Therapy|Topic|RELATED_TO
 2|Hiv Therapy|Topic|Virologic Failure|Topic|RELATED_TO
-2|Novel Hypothesis|Topic|Virologic Failure|Topic|DISCUSSES
+2|Novel Hypothesis|Topic|Virologic Failure|Topic|RELATED_TO
 2|Mathematical Model Of Hiv Within-Host Viral Dynamics|Topic|Nonlinear Parametric Resonance|Topic|RELATED_TO
-2|Nonlinear Parametric Resonance|Topic|Virologic Failure|Topic|DISCUSSES
 2|Clinical Trial Data|Topic|Patient-Specific Resonant Spectra|Topic|RELATED_TO
-2|Romulus Breban|Author|Parametric Resonance May Explain Virologic Failure To Hiv Treatment Interruptions|Paper|AUTHORED
-2|Sally Blower|Author|Parametric Resonance May Explain Virologic Failure To Hiv Treatment Interruptions|Paper|AUTHORED
-3|Preventive Vaccines|Topic|Hiv|Topic|RELATED_TO
-3|Immune Response Markers|Topic|Preventive Vaccines|Topic|RELATED_TO
+2|Immunologic And Virologic Parameters|Topic|Patient-Specific Resonant Spectra|Topic|RELATED_TO
+2|Romulus Breban|Author|Novel Hypothesis|Topic|AUTHORED
+2|Sally Blower|Author|Novel Hypothesis|Topic|AUTHORED
 3|Two-Phase Sampling|Topic|Immune Response Markers|Topic|RELATED_TO
-3|Txshift R Package|Topic|Two-Phase Sampling|Topic|RELATED_TO
-3|Nima S. Hejazi|Author|Txshift R Package|Topic|AUTHORED
-3|Mark J. Van Der Laan|Author|Txshift R Package|Topic|AUTHORED
-3|Holly E. Janes|Author|Txshift R Package|Topic|AUTHORED
-3|Peter B. Gilbert|Author|Txshift R Package|Topic|AUTHORED
-3|David C. Benkeser|Author|Txshift R Package|Topic|AUTHORED
+3|Preventive Vaccines|Topic|Hiv|Topic|RELATED_TO
+3|Txshift R Package|Topic|Nima S. Hejazi|Author|AUTHORED
+3|Txshift R Package|Topic|Mark J. Van Der Laan|Author|AUTHORED
+3|Txshift R Package|Topic|Holly E. Janes|Author|AUTHORED
+3|Txshift R Package|Topic|Peter B. Gilbert|Author|AUTHORED
+3|Txshift R Package|Topic|David C. Benkeser|Author|AUTHORED
+4|Phase 1-2 Designs|Topic|Dose Finding|Topic|RELATED_TO
+4|Phase 1-2 Designs|Topic|Clinical Response|Topic|RELATED_TO
+4|Phase 1-2 Designs|Topic|Toxicity|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Candidate Doses|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Long-Term Success Rate|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Biological Outcome|Topic|RELATED_TO
+4|Biological Outcome|Topic|Pharmacodynamic Activity|Topic|RELATED_TO
+4|Biological Outcome|Topic|Immunological Effect|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Tumor Response|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Toxicity|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Survival Time|Topic|RELATED_TO
+4|Multivariate Dose-Outcome Models|Topic|Clinical Outcomes|Topic|RELATED_TO
+4|Bayesian Model Selection|Topic|Biologically Inactive Doses|Topic|RELATED_TO
+4|Therapeutically Optimal Dose|Topic|Restricted Mean Survival Time|Topic|RELATED_TO
 4|Demo|Paper|Cheng-Han Yang|Author|AUTHORED
 4|Demo|Paper|Peter F. Thall|Author|AUTHORED
 4|Demo|Paper|Ruitao Lin|Author|AUTHORED
-5|Align|Topic|Large Language Models|Topic|RELATED_TO
+5|Align|Topic|Medical Coding|Topic|RELATED_TO
+5|Align|Topic|Clinical Trial Data|Topic|RELATED_TO
+5|Align|Topic|Interoperability Challenges|Topic|DISCUSSES
+5|Align|Topic|Large Language Models|Topic|DISCUSSES
 5|Align|Topic|Anatomical Therapeutic Chemical|Topic|RELATED_TO
 5|Align|Topic|Medical Dictionary For Regulatory Activities|Topic|RELATED_TO
-5|Align|Topic|Clinical Trial Data|Topic|RELATED_TO
-5|Align|Topic|Immunology Trials|Topic|RELATED_TO
 5|Nabeel Seedat|Author|Align|Topic|AUTHORED
 5|Caterina Tozzi|Author|Align|Topic|AUTHORED
 5|Andrea Hita Ardiaca|Author|Align|Topic|AUTHORED
@@ -43,10 +53,10 @@ docid|source|sourcetype|target|targettype|type
 5|James Weatherall|Author|Align|Topic|AUTHORED
 5|Adam Taylor|Author|Align|Topic|AUTHORED
 6|Ross M. Kedl|Author|An Immunological Autobiography|Paper|AUTHORED
-6|An Immunological Autobiography|Paper|Sars-Cov2 And Variants Of Concern|Topic|DISCUSSES
+6|An Immunological Autobiography|Paper|Sars-Cov2|Topic|DISCUSSES
 6|An Immunological Autobiography|Paper|Moderna Phase Iii Clinical Trial|Topic|DISCUSSES
+6|An Immunological Autobiography|Paper|Covid-19 Vaccine Trial|Topic|DISCUSSES
 6|An Immunological Autobiography|Paper|Longitudinal Evaluation Of T And B Cell Immunity|Topic|DISCUSSES
-6|An Immunological Autobiography|Paper|Covid-19 Vaccine Trial Participant|Topic|DISCUSSES
 7|Sleep Monitoring Algorithm|Topic|Hao He|Author|AUTHORED
 7|Sleep Monitoring Algorithm|Topic|Chao Li|Author|AUTHORED
 7|Sleep Monitoring Algorithm|Topic|Wolfgang Ganglberger|Author|AUTHORED
@@ -57,87 +67,93 @@ docid|source|sourcetype|target|targettype|type
 7|Sleep Monitoring Algorithm|Topic|Jimeng Sun|Author|AUTHORED
 7|Sleep Monitoring Algorithm|Topic|Brandon Westover|Author|AUTHORED
 7|Sleep Monitoring Algorithm|Topic|Dina Katabi|Author|AUTHORED
-8|Vaccine Efficacy Estimands|Topic|Mats Stensrud|Author|AUTHORED
-8|Vaccine Efficacy Estimands|Topic|Daniel Nevo|Author|AUTHORED
-8|Vaccine Efficacy Estimands|Topic|Uri Obolski|Author|AUTHORED
+8|Vaccine Efficacy Estimands|Topic|Immunological Effects|Topic|RELATED_TO
+8|Vaccine Efficacy Estimands|Topic|Behavioral Effects|Topic|RELATED_TO
+8|Mats Stensrud|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
+8|Daniel Nevo|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
+8|Uri Obolski|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
 8|Influenza Vaccine Trial|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+8|Belief Variable|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+8|Blinding Assessment|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+8|Vaccine Trials|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
 9|Panacea|Topic|Trialalign|Topic|RELATED_TO
 9|Panacea|Topic|Trialinstruct|Topic|RELATED_TO
 9|Panacea|Topic|Trialpanorama|Topic|RELATED_TO
-9|Jiacheng Lin|Author|Panacea|Topic|AUTHORED
-9|Hanwen Xu|Author|Panacea|Topic|AUTHORED
-9|Zifeng Wang|Author|Panacea|Topic|AUTHORED
-9|Sheng Wang|Author|Panacea|Topic|AUTHORED
-9|Jimeng Sun|Author|Panacea|Topic|AUTHORED
+9|Panacea|Topic|Jiacheng Lin|Author|AUTHORED
+9|Panacea|Topic|Hanwen Xu|Author|AUTHORED
+9|Panacea|Topic|Zifeng Wang|Author|AUTHORED
+9|Panacea|Topic|Sheng Wang|Author|AUTHORED
+9|Panacea|Topic|Jimeng Sun|Author|AUTHORED
 10|Immune Correlates Of Protection|Topic|Correlates Of Risk|Topic|RELATED_TO
 10|Correlates Of Risk|Topic|Controlled Vaccine Efficacy Curve|Topic|RELATED_TO
 10|Controlled Vaccine Efficacy Curve|Topic|Controlled-Risk Curve|Topic|RELATED_TO
 10|Controlled Vaccine Efficacy Curve|Topic|50% Neutralizing Antibody Titer|Topic|RELATED_TO
 10|50% Neutralizing Antibody Titer|Topic|Virologically Confirmed Dengue|Topic|RELATED_TO
-10|Cyd14|Paper|50% Neutralizing Antibody Titer|Topic|DISCUSSES
-10|Cyd15|Paper|50% Neutralizing Antibody Titer|Topic|DISCUSSES
 10|Peter B. Gilbert|Author|Cyd14|Paper|AUTHORED
 10|Youyi Fong|Author|Cyd14|Paper|AUTHORED
 10|Marco Carone|Author|Cyd14|Paper|AUTHORED
 10|Peter B. Gilbert|Author|Cyd15|Paper|AUTHORED
 10|Youyi Fong|Author|Cyd15|Paper|AUTHORED
 10|Marco Carone|Author|Cyd15|Paper|AUTHORED
-11|Trial2Vec|Topic|Zifeng Wang|Author|AUTHORED
-11|Trial2Vec|Topic|Jimeng Sun|Author|AUTHORED
-11|Trial2Vec|Topic|Clinical Trials|Topic|DISCUSSES
-11|Trial2Vec|Topic|Umls Knowledge Base|Topic|RELATED_TO
-12|Clinical Trials|Topic|Drug Development|Topic|RELATED_TO
-12|Trial Outcome Prediction|Topic|Spot|Paper|AUTHORED
-12|Spot|Paper|Clinical Trials|Topic|DISCUSSES
-13|Drug Discovery And Development|Topic|Clinical Trials|Topic|RELATED_TO
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Clinical Trials|Topic|DISCUSSES
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Chufan Gao|Author|AUTHORED
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Jathurshan Pradeepkumar|Author|AUTHORED
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Trisha Das|Author|AUTHORED
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Shivashankar Thati|Author|AUTHORED
-13|Clinical Trial Outcome (Cto) Dataset|Paper|Jimeng Sun|Author|AUTHORED
+12|Trial2Vec|Topic|Zifeng Wang|Author|AUTHORED
+12|Trial2Vec|Topic|Jimeng Sun|Author|AUTHORED
+12|Trial2Vec|Topic|Clinical Trials|Topic|DISCUSSES
+12|Trial2Vec|Topic|Umls Knowledge Base|Topic|RELATED_TO
+13|Spot|Topic|Clinical Trials|Topic|RELATED_TO
+13|Zifeng Wang|Author|Spot|Topic|AUTHORED
+13|Cao Xiao|Author|Spot|Topic|AUTHORED
+13|Jimeng Sun|Author|Spot|Topic|AUTHORED
 14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Matrix-Valued Time-Series Data Clustering|Topic|DISCUSSES
 14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Low-Dimensional Embedding|Topic|DISCUSSES
 14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Static Clinical Covariates|Topic|DISCUSSES
 14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|High-Dimensional Longitudinal Features|Topic|DISCUSSES
 14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Sparse And Irregular Nature Of Sample Collection|Topic|DISCUSSES
+14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Immunological Data Set From Patients With Sars-Cov-2 Infection|Topic|DISCUSSES
+14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Intensive Simulations|Topic|DISCUSSES
 15|World Health Organization|Topic|Hiv Treatment|Topic|RELATED_TO
-15|Hiv Treatment|Topic|Viral Load Testing|Topic|RELATED_TO
-15|Tao Liu|Author|Hiv Treatment|Topic|AUTHORED
-15|Joseph W. Hogan|Author|Hiv Treatment|Topic|AUTHORED
-15|Lisa Wang|Author|Hiv Treatment|Topic|AUTHORED
-15|Shangxuan Zhang|Author|Hiv Treatment|Topic|AUTHORED
-15|Rami Kantor|Author|Hiv Treatment|Topic|AUTHORED
+15|Hiv Treatment|Topic|Resource-Limited Settings|Topic|RELATED_TO
+15|Hiv Treatment|Topic|Clinical And Immunological Markers|Topic|RELATED_TO
+15|Clinical And Immunological Markers|Topic|Cd4 Cell Counts|Topic|RELATED_TO
+15|Hiv Treatment|Topic|Viral Load|Topic|RELATED_TO
+15|Diagnostic Algorithm|Topic|Hiv Treatment|Topic|RELATED_TO
 15|Miriam Hospital Immunology Clinic|Topic|Hiv Treatment|Topic|RELATED_TO
-16|Clinical Trials|Topic|Nlp|Topic|RELATED_TO
-16|Nlp|Topic|Eligibility Classification|Topic|RELATED_TO
-16|Eligibility Classification|Topic|Phase 3 Cancer Trials|Topic|RELATED_TO
-16|Eligibility Classification|Topic|Phase 1 And 2 Cancer Trials|Topic|RELATED_TO
-16|Eligibility Classification|Topic|Heart Disease Trials|Topic|RELATED_TO
-16|Eligibility Classification|Topic|Type 2 Diabetes Trials|Topic|RELATED_TO
-16|Eligibility Classification|Topic|Observational Trials|Topic|RELATED_TO
-16|Yumeng Yang|Author|Annotated Eligibility Criteria Dataset|Topic|AUTHORED
-16|Ashley Gilliam|Author|Annotated Eligibility Criteria Dataset|Topic|AUTHORED
-16|Ethan B Ludmir|Author|Annotated Eligibility Criteria Dataset|Topic|AUTHORED
-16|Kirk Roberts|Author|Annotated Eligibility Criteria Dataset|Topic|AUTHORED
-17|Trialsynth|Topic|Clinical Trials|Topic|RELATED_TO
-17|Trialsynth|Topic|Synthetic Data Generation|Topic|RELATED_TO
-17|Trialsynth|Topic|Hawkes Processes|Topic|RELATED_TO
-17|Trialsynth|Topic|Variational Autoencoder|Topic|RELATED_TO
-17|Chufan Gao|Author|Trialsynth|Topic|AUTHORED
-17|Mandis Beigi|Author|Trialsynth|Topic|AUTHORED
-17|Afrah Shafquat|Author|Trialsynth|Topic|AUTHORED
-17|Jacob Aptekar|Author|Trialsynth|Topic|AUTHORED
-17|Jimeng Sun|Author|Trialsynth|Topic|AUTHORED
-18|Ct-Bert|Topic|Natural Language Processing (Nlp) Of Clinical Trial Documents|Topic|RELATED_TO
-18|Ct-Bert|Topic|Named Entity Recognition (Ner) Models|Topic|RELATED_TO
-18|Ct-Bert|Topic|Clinical Trial Nlp|Topic|RELATED_TO
-18|Xiong Liu|Author|Ct-Bert|Topic|AUTHORED
-18|Greg L. Hersch|Author|Ct-Bert|Topic|AUTHORED
-18|Iya Khalil|Author|Ct-Bert|Topic|AUTHORED
-18|Murthy Devarakonda|Author|Ct-Bert|Topic|AUTHORED
-18|Ct-Bert|Topic|Attention-Based Bilstm|Topic|RELATED_TO
-18|Ct-Bert|Topic|Criteria2Query|Topic|RELATED_TO
-19|Ctp-Llm|Paper|Clinical Trial Outcome Prediction|Topic|DISCUSSES
-19|Ctp-Llm|Paper|Phasetransition Dataset|Topic|RELATED_TO
-19|Ctp-Llm|Paper|Gpt-3.5|Topic|RELATED_TO
+15|Tao Liu|Author|Diagnostic Algorithm|Topic|AUTHORED
+15|Joseph W. Hogan|Author|Diagnostic Algorithm|Topic|AUTHORED
+15|Lisa Wang|Author|Diagnostic Algorithm|Topic|AUTHORED
+15|Shangxuan Zhang|Author|Diagnostic Algorithm|Topic|AUTHORED
+15|Rami Kantor|Author|Diagnostic Algorithm|Topic|AUTHORED
+16|Clinical Trial Outcome (Cto) Knowledge Base|Topic|Clinical Trial Outcomes|Topic|RELATED_TO
+16|Clinical Trial Outcome (Cto) Knowledge Base|Topic|Drug Discovery And Development|Topic|RELATED_TO
+16|Chufan Gao|Author|Clinical Trial Outcome (Cto) Knowledge Base|Topic|AUTHORED
+16|Jathurshan Pradeepkumar|Author|Clinical Trial Outcome (Cto) Knowledge Base|Topic|AUTHORED
+16|Trisha Das|Author|Clinical Trial Outcome (Cto) Knowledge Base|Topic|AUTHORED
+16|Shivashankar Thati|Author|Clinical Trial Outcome (Cto) Knowledge Base|Topic|AUTHORED
+16|Jimeng Sun|Author|Clinical Trial Outcome (Cto) Knowledge Base|Topic|AUTHORED
+17|Clinical Trials|Topic|Nlp|Topic|RELATED_TO
+17|Eligibility Classification|Topic|Phase 3 Cancer Trials|Topic|RELATED_TO
+17|Eligibility Classification|Topic|Non-Cancer Trials|Topic|RELATED_TO
+17|Phase 3 Cancer Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Phase 1 And 2 Cancer Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Heart Disease Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Type 2 Diabetes Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Observational Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Yumeng Yang|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Ashley Gilliam|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Ethan B Ludmir|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Kirk Roberts|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Few-Shot Learning|Topic|Cross-Disease Generalization|Topic|RELATED_TO
+18|Trialsynth|Topic|Chufan Gao|Author|AUTHORED
+18|Trialsynth|Topic|Mandis Beigi|Author|AUTHORED
+18|Trialsynth|Topic|Afrah Shafquat|Author|AUTHORED
+18|Trialsynth|Topic|Jacob Aptekar|Author|AUTHORED
+18|Trialsynth|Topic|Jimeng Sun|Author|AUTHORED
+19|Ct-Bert|Topic|Natural Language Processing (Nlp) Of Clinical Trial Documents|Topic|RELATED_TO
+19|Ct-Bert|Topic|Named Entity Recognition (Ner) Models|Topic|RELATED_TO
+19|Ct-Bert|Topic|Eligibility Criteria Entities|Topic|RELATED_TO
+19|Ct-Bert|Topic|Attention-Based Bilstm|Topic|RELATED_TO
+19|Ct-Bert|Topic|Criteria2Query|Topic|RELATED_TO
+19|Xiong Liu|Author|Ct-Bert|Topic|AUTHORED
+19|Greg L. Hersch|Author|Ct-Bert|Topic|AUTHORED
+19|Iya Khalil|Author|Ct-Bert|Topic|AUTHORED
+19|Murthy Devarakonda|Author|Ct-Bert|Topic|AUTHORED
+19|Ct-Bert|Topic|Clinical Trial Nlp|Topic|RELATED_TO

@@ -7,6 +7,26 @@ Property Embedding As %Library.Vector(DATATYPE = "FLOAT", LEN = 384);
 
 // LEN will depend on the size of the vector output of the embedding model
 
+ClassMethod LoadData(filepath As %Library.String, purge As %Library.Integer = 1) As %Status
+{
+    // purge - Whether to clean the table of previously loaded data; default to 1.
+    if purge { // purge data
+        set myquery = "TRUNCATE TABLE GraphKB.DocumentsEmbeddings"
+        set tStatement = ##class(%SQL.Statement).%New()
+        $$$ThrowOnError(tStatement.%Prepare(myquery))
+        set rset = tStatement.%Execute()
+    }
+
+    set myquery = "LOAD DATA FROM FILE '"_filepath_"' INTO GraphKB.DocumentsEmbeddings USING {""from"":{""file"":{""header"":true}}}"
+    set tStatement = ##class(%SQL.Statement).%New()
+    $$$ThrowOnError(tStatement.%Prepare(myquery))
+    set rset = tStatement.%Execute()
+    if (rset.%SQLCODE < 0) {
+        throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
+    }
+    return rset
+}
+
 ClassMethod Insert(embedding As %String) As %Status
 {
     // Inserts row into embedding table using class object
@@ -120,6 +140,78 @@ ClassMethod GetEmbeddingsPy(text) [ Language = python ]
     return str(embeddings_np.tolist())
 }
 
+// Storage Default
+
+// {
+
+// <Data name="DocumentsEmbeddingsDefaultData">
+
+// <Value name="1">
+
+// <Value>%%CLASSNAME</Value>
+
+// </Value>
+
+// <Value name="2">
+
+// <Value>Embedding</Value>
+
+// </Value>
+
+// </Data>
+
+// <DataLocation>^GraphKB.DocumentsEmbeddingsD</DataLocation>
+
+// <DefaultData>DocumentsEmbeddingsDefaultData</DefaultData>
+
+// <ExtentSize>159</ExtentSize>
+
+// <IdLocation>^GraphKB.DocumentsEmbeddingsD</IdLocation>
+
+// <IndexLocation>^GraphKB.DocumentsEmbeddingsI</IndexLocation>
+
+// <Property name="%%CLASSNAME">
+
+// <AverageFieldSize>2</AverageFieldSize>
+
+// <Histogram>$lb(.06666666666666666667,0,16,$lb("-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000"),$lb(21,21,21,21,21,21,21,21,21,21,21,21,21,21,21),$lb(758198320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,758198320))</Histogram>
+
+// <OutlierSelectivity>.999999:</OutlierSelectivity>
+
+// <Selectivity>0.0001%</Selectivity>
+
+// </Property>
+
+// <Property name="%%ID">
+
+// <AverageFieldSize>3</AverageFieldSize>
+
+// <Histogram>$lb(.06666666666666666667,1,0,$lb(1,11,22,33,44,55,66,77,88,99,109,119,129,139,149,159),$lb(1,0,0,0,0,0,0,0,0,0,1,1,1,1,1),"")</Histogram>
+
+// <Selectivity>1</Selectivity>
+
+// </Property>
+
+// <Property name="Embedding">
+
+// <AverageFieldSize>4420</AverageFieldSize>
+
+// <Selectivity>1</Selectivity>
+
+// </Property>
+
+// <SQLMap name="IDKEY">
+
+// <BlockCount>-640</BlockCount>
+
+// </SQLMap>
+
+// <StreamLocation>^GraphKB.DocumentsEmbeddingsS</StreamLocation>
+
+// <Type>%Storage.Persistent</Type>
+
+// }
+
 Storage Default
 {
 <Data name="DocumentsEmbeddingsDefaultData">
@@ -132,27 +224,8 @@ Storage Default
 </Data>
 <DataLocation>^GraphKB.DocumentsEmbeddingsD</DataLocation>
 <DefaultData>DocumentsEmbeddingsDefaultData</DefaultData>
-<ExtentSize>159</ExtentSize>
 <IdLocation>^GraphKB.DocumentsEmbeddingsD</IdLocation>
 <IndexLocation>^GraphKB.DocumentsEmbeddingsI</IndexLocation>
-<Property name="%%CLASSNAME">
-<AverageFieldSize>2</AverageFieldSize>
-<Histogram>$lb(.06666666666666666667,0,16,$lb("-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000"),$lb(21,21,21,21,21,21,21,21,21,21,21,21,21,21,21),$lb(758198320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,758198320))</Histogram>
-<OutlierSelectivity>.999999:</OutlierSelectivity>
-<Selectivity>0.0001%</Selectivity>
-</Property>
-<Property name="%%ID">
-<AverageFieldSize>3</AverageFieldSize>
-<Histogram>$lb(.06666666666666666667,1,0,$lb(1,11,22,33,44,55,66,77,88,99,109,119,129,139,149,159),$lb(1,0,0,0,0,0,0,0,0,0,1,1,1,1,1),"")</Histogram>
-<Selectivity>1</Selectivity>
-</Property>
-<Property name="Embedding">
-<AverageFieldSize>4420</AverageFieldSize>
-<Selectivity>1</Selectivity>
-</Property>
-<SQLMap name="IDKEY">
-<BlockCount>-640</BlockCount>
-</SQLMap>
 <StreamLocation>^GraphKB.DocumentsEmbeddingsS</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }

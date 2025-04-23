@@ -1,7 +1,7 @@
 Class GraphKB.Query Extends %RegisteredObject
 {
 
-ClassMethod Search(userQuery As %String, graphSearchCount As %Integer = 0, semanticSearchCount As %Integer = 0) As %String
+ClassMethod Search(userQueryEntity As %String, userQueryEmbedding As %String, graphSearchCount As %Integer = 0, semanticSearchCount As %Integer = 0) As %String
 {
     set sc = $$$OK
     if (graphSearchCount <= 0) && (semanticSearchCount <=0) {
@@ -19,7 +19,7 @@ ClassMethod Search(userQuery As %String, graphSearchCount As %Integer = 0, seman
             $$$ThrowOnError(tEntityStatement.%Prepare(myEntityQuery))
 
             // Convert query string into embedding
-            set userQueryEntity = $CLASSMETHOD("GraphKB.EntityEmbeddings","GetEmbeddingsPy",userQuery)
+            #; set userQueryEntity = $CLASSMETHOD("GraphKB.EntityEmbeddings","GetEmbeddingsBatchPy",userQuery)
             
             // Execute SQL
             set rsetEntity = tEntityStatement.%Execute(graphSearchCount, userQueryEntity)
@@ -31,16 +31,41 @@ ClassMethod Search(userQuery As %String, graphSearchCount As %Integer = 0, seman
             while rsetEntity.%Next(){
                 set entityList = $s($d(entityList):entityList,1:"")_$lb(rsetEntity.%Get("entityid"))    
             }
-            set myquery = "SELECT TOP ? docs.abstract FROM GraphKB.Relations rel JOIN GraphKB.Documents docs ON rel.docid=docs.docid WHERE rel.source %INLIST ? OR rel.target %INLIST ? GROUP BY rel.docid ORDER by count(rel.docid) DESC UNION SELECT TOP ? docs.abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+            #; set myquery = "SELECT TOP ? 'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract "
+            #; _"FROM GraphKB.Relations rel "
+            #; _"JOIN GraphKB.Documents docs"
+            #; _"ON rel.docid=docs.docid"
+            #; _"WHERE rel.source %INLIST ? OR rel.target %INLIST ?"
+            #; #; _"GROUP BY rel.docid"
+            #; #; _"ORDER by count(rel.docid) DESC"
+            #; _"UNION"
+            #; _"SELECT TOP ? 'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract "
+            #; _"FROM GraphKB.DocumentsEmbeddings emb"
+            #; _"JOIN GraphKB.Documents docs"
+            #; _"ON emb.ID = docs.ID"
+            #; _"ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+            set myquery = "SELECT TOP ?  docs.docid,'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract " 
+             _ "FROM GraphKB.Relations rel " 
+             _ "JOIN GraphKB.Documents docs ON rel.docid = docs.docid " 
+             _ "WHERE rel.source %INLIST ? OR rel.target %INLIST ? " 
+             _ "GROUP BY rel.docid "
+             _ "ORDER by count(rel.docid) DESC "
+             _ "UNION " 
+             _ "SELECT TOP ?  docs.docid,'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract " 
+             _ "FROM GraphKB.DocumentsEmbeddings emb " 
+             _ "JOIN GraphKB.Documents docs ON emb.ID = docs.ID " 
+             _ "ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+
+
         } elseif semanticSearchCount > 0 { // Semantic search 
-            set myquery = "SELECT TOP ? docs.abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+            set myquery = "SELECT TOP ? 'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
 
         }
         set tStatement = ##class(%SQL.Statement).%New()
         $$$ThrowOnError(tStatement.%Prepare(myquery))
 
         // Convert query string into embedding
-        set userQueryEmbedding = $CLASSMETHOD("GraphKB.DocumentsEmbeddings","GetEmbeddingsPy",userQuery)
+        #; set userQueryEmbedding = $CLASSMETHOD("GraphKB.DocumentsEmbeddings","GetEmbeddingsBatchPy",userQuery)
         
         // Execute SQL
         //graphSearchCount,userQueryEmbedding
@@ -52,7 +77,7 @@ ClassMethod Search(userQuery As %String, graphSearchCount As %Integer = 0, seman
         // If you're implementing RAG, you would format your retrieved information here before passing the context to an LLM
         while rset.%Next(){
             set resultCount = resultCount + 1
-            set retrievedInfo = retrievedInfo _ $C(13,10) _ " Abstract "_resultCount_": " _rset.%Get("abstract")_$CHAR(10)
+            set retrievedInfo = retrievedInfo _ $C(13,10) _" Abstract "_resultCount_": " _rset.%Get("abstract")_$CHAR(10)
         }
         write !, retrievedInfo      
         return retrievedInfo
@@ -61,7 +86,7 @@ ClassMethod Search(userQuery As %String, graphSearchCount As %Integer = 0, seman
     catch e {
         set sc = e.AsStatus()
         zw sc
-        return sc 
+        return e.AsSQLMessage()
     }
 }
 

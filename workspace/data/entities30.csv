@@ -1,0 +1,325 @@
+docid|entityid|type
+0|Early Phase Clinical Trial|Topic
+0|Peter F. Thall|Author
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper
+1|Tianyu Zhan|Author
+1|Yiwang Zhou|Author
+1|Ziqian Geng|Author
+1|Yihua Gu|Author
+1|Jian Kang|Author
+1|Li Wang|Author
+1|Xiaohong Huang|Author
+1|Elizabeth H. Slate|Author
+2|Pilot Studies Of Structured Treatment Interruptions In Hiv Therapy|Topic
+2|Hiv Therapy|Topic
+2|Virologic Failure|Topic
+2|Novel Hypothesis|Topic
+2|Mathematical Model Of Hiv Within-Host Viral Dynamics|Topic
+2|Nonlinear Parametric Resonance|Topic
+2|Clinical Trial Data|Topic
+2|Patient-Specific Resonant Spectra|Topic
+2|Immunologic And Virologic Parameters|Topic
+2|Romulus Breban|Author
+2|Sally Blower|Author
+3|Preventive Vaccines|Topic
+3|Hiv|Topic
+3|Immune Response Markers|Topic
+3|Two-Phase Sampling|Topic
+3|Txshift R Package|Topic
+3|Nima S. Hejazi|Author
+3|Mark J. Van Der Laan|Author
+3|Holly E. Janes|Author
+3|Peter B. Gilbert|Author
+3|David C. Benkeser|Author
+4|Phase 1-2 Designs|Topic
+4|Dose Finding|Topic
+4|Clinical Response|Topic
+4|Toxicity|Topic
+4|Optimal Dose|Topic
+4|Generalized Phase 1-2 Design|Topic
+4|Candidate Doses|Topic
+4|Patients|Topic
+4|Long-Term Success Rate|Topic
+4|Biological Outcome|Topic
+4|Pharmacodynamic Activity|Topic
+4|Immunological Effect|Topic
+4|Tumor Response|Topic
+4|Survival Time|Topic
+4|Multivariate Dose-Outcome Models|Topic
+4|Bayesian Model Selection|Topic
+4|Therapeutically Optimal Dose|Topic
+4|Restricted Mean Survival Time|Topic
+4|Simulation Study|Topic
+4|Cheng-Han Yang|Author
+4|Peter F. Thall|Author
+4|Ruitao Lin|Author
+4|Demo|Paper
+5|Randomized Controlled Trials|Topic
+5|Intercurrent Events|Topic
+5|Immunology Trials|Topic
+5|Treatment-Related Intercurrent Events|Topic
+5|Treatment-Unrelated Intercurrent Events|Topic
+5|Composite Variable Strategy|Topic
+5|Hypothetical Strategy|Topic
+5|Causal Estimand|Topic
+5|Doubly Robust Estimators|Topic
+5|Baricitinib|Topic
+5|Systemic Lupus Erythematosus|Topic
+5|Sizhu Lu|Author
+5|Yanyao Yi|Author
+5|Yongming Qu|Author
+5|Huayu Karen Liu|Author
+5|Ting Ye|Author
+5|Peng Ding|Author
+6|Align|Topic
+6|Large Language Models|Topic
+6|Anatomical Therapeutic Chemical|Topic
+6|Medical Dictionary For Regulatory Activities|Topic
+6|Nabeel Seedat|Author
+6|Caterina Tozzi|Author
+6|Andrea Hita Ardiaca|Author
+6|Mihaela Van Der Schaar|Author
+6|James Weatherall|Author
+6|Adam Taylor|Author
+7|Ross M. Kedl|Author
+7|Sars-Cov2|Topic
+7|Moderna Phase Iii Clinical Trial|Topic
+7|Covid-19 Vaccine Trial|Topic
+7|Longitudinal Evaluation Of T And B Cell Immunity|Topic
+7|An Immunological Autobiography|Paper
+8|Sleep Monitoring Algorithm|Topic
+8|Hao He|Author
+8|Chao Li|Author
+8|Wolfgang Ganglberger|Author
+8|Kaileigh Gallagher|Author
+8|Rumen Hristov|Author
+8|Michail Ouroutzoglou|Author
+8|Haoqi Sun|Author
+8|Jimeng Sun|Author
+8|Brandon Westover|Author
+8|Dina Katabi|Author
+9|Vaccine Efficacy Estimands|Topic
+9|Immunological Effects|Topic
+9|Behavioral Effects|Topic
+9|Mats Stensrud|Author
+9|Daniel Nevo|Author
+9|Uri Obolski|Author
+9|Influenza Vaccine Trial|Topic
+9|Belief Variable|Topic
+9|Blinding Assessment|Topic
+9|Vaccine Trials|Topic
+10|Panacea|Topic
+10|Trialalign|Topic
+10|Trialinstruct|Topic
+10|Trialpanorama|Topic
+10|Jiacheng Lin|Author
+10|Hanwen Xu|Author
+10|Zifeng Wang|Author
+10|Sheng Wang|Author
+10|Jimeng Sun|Author
+11|Immune Correlates Of Protection|Topic
+11|Correlates Of Risk|Topic
+11|Controlled Vaccine Efficacy Curve|Topic
+11|Controlled-Risk Curve|Topic
+11|50% Neutralizing Antibody Titer|Topic
+11|Virologically Confirmed Dengue|Topic
+11|Peter B. Gilbert|Author
+11|Youyi Fong|Author
+11|Marco Carone|Author
+11|Cyd14|Paper
+11|Cyd15|Paper
+12|Rank-Based Identification Of High-Dimensional Surrogate Markers: Application To Vaccinology|Paper
+13|Trial2Vec|Topic
+13|Zifeng Wang|Author
+13|Jimeng Sun|Author
+13|Clinical Trials|Topic
+13|Umls Knowledge Base|Topic
+14|Spot|Topic
+14|Zifeng Wang|Author
+14|Cao Xiao|Author
+14|Jimeng Sun|Author
+14|Clinical Trials|Topic
+15|Matrix-Valued Time-Series Data Clustering|Topic
+15|Low-Dimensional Embedding|Topic
+15|Static Clinical Covariates|Topic
+15|High-Dimensional Longitudinal Features|Topic
+15|Sparse And Irregular Nature Of Sample Collection|Topic
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper
+15|Immunological Data Set From Patients With Sars-Cov-2 Infection|Topic
+15|Intensive Simulations|Topic
+16|World Health Organization|Topic
+16|Hiv Treatment|Topic
+16|Resource-Limited Settings|Topic
+16|Clinical And Immunological Markers|Topic
+16|Cd4 Cell Counts|Topic
+16|Viral Load|Topic
+16|Diagnostic Algorithm|Topic
+16|Miriam Hospital Immunology Clinic|Topic
+16|Tao Liu|Author
+16|Joseph W. Hogan|Author
+16|Lisa Wang|Author
+16|Shangxuan Zhang|Author
+16|Rami Kantor|Author
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper
+17|Clinical Trials|Topic
+17|Nlp|Topic
+17|Eligibility Classification|Topic
+17|Phase 3 Cancer Trials|Topic
+17|Non-Cancer Trials|Topic
+17|Phase 1 And 2 Cancer Trials|Topic
+17|Heart Disease Trials|Topic
+17|Type 2 Diabetes Trials|Topic
+17|Observational Trials|Topic
+17|Yumeng Yang|Author
+17|Ashley Gilliam|Author
+17|Ethan B Ludmir|Author
+17|Kirk Roberts|Author
+17|Annotated Eligibility Criteria Dataset|Topic
+17|Few-Shot Learning|Topic
+17|Cross-Disease Generalization|Topic
+18|Trialsynth|Topic
+18|Chufan Gao|Author
+18|Mandis Beigi|Author
+18|Afrah Shafquat|Author
+18|Jacob Aptekar|Author
+18|Jimeng Sun|Author
+19|Natural Language Processing (Nlp) Of Clinical Trial Documents|Topic
+19|Ct-Bert|Topic
+19|Xiong Liu|Author
+19|Greg L. Hersch|Author
+19|Iya Khalil|Author
+19|Murthy Devarakonda|Author
+19|Clinical Trial Nlp|Topic
+19|Named Entity Recognition (Ner) Models|Topic
+19|Attention-Based Bilstm|Topic
+19|Criteria2Query|Topic
+20|Ctp-Llm|Topic
+20|Phasetransition Dataset|Topic
+20|Michael Reinisch|Author
+20|Jianfeng He|Author
+20|Chenxi Liao|Author
+20|Sauleh Ahmad Siddiqui|Author
+20|Bei Xiao|Author
+20|Clinical Trial Outcome Prediction|Topic
+21|Clinical Trial Outcome (Cto) Benchmark|Topic
+21|Chufan Gao|Author
+21|Jathurshan Pradeepkumar|Author
+21|Trisha Das|Author
+21|Shivashankar Thati|Author
+21|Jimeng Sun|Author
+21|Clinical Trials|Topic
+21|Drug Discovery And Development|Topic
+22|Machine Learning|Topic
+22|Clinical Domain|Topic
+22|Data Scarcity|Topic
+22|Ethical Considerations|Topic
+22|Clinical Trials|Topic
+22|Privacy Regulations|Topic
+22|High Costs|Topic
+22|Extended Duration|Topic
+22|Large Language Models|Topic
+22|Retrieval-Reasoning Few-Shot Framework|Topic
+22|Synthetic Clinical Trials|Topic
+22|Binary Success/Failure Labels|Topic
+22|Clinicaltrials.Gov|Topic
+22|Synthetic Data|Topic
+22|Real Datasets|Topic
+22|Pre-Trained Model|Topic
+22|Binary Classifier|Topic
+22|Trial Outcome Prediction|Topic
+22|Zerui Xu|Author
+22|Fang Wu|Author
+22|Yuanyuan Zhang|Author
+22|Yue Zhao|Author
+22|Https://Anonymous.4Open.Science/R/Retrieval_Reasoning_Clinical_Trial_Generation-3Ec4|Paper
+23|Clinical Trials|Topic
+23|Drug Development|Topic
+23|Phase I|Topic
+23|Phase Ii|Topic
+23|Phase Iii|Topic
+23|Phase Iv|Topic
+23|Challenges In Clinical Trials|Topic
+23|Innovative Technologies|Topic
+23|Emerging Therapies|Topic
+23|Regulatory Reforms|Topic
+23|Global Collaboration|Topic
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper
+23|Tianyang Wang|Author
+23|Ming Liu|Author
+23|Benji Peng|Author
+23|Xinyuan Song|Author
+23|Charles Zhang|Author
+23|Xintian Sun|Author
+23|Qian Niu|Author
+23|Junyu Liu|Author
+23|Silin Chen|Author
+23|Keyu Chen|Author
+23|Ming Li|Author
+23|Pohsun Feng|Author
+23|Ziqian Bi|Author
+23|Yunze Wang|Author
+23|Yichao Zhang|Author
+23|Cheng Fei|Author
+23|Lawrence Kq Yan|Author
+24|Bayesian Adaptive Designs|Topic
+24|Clinical Trials|Topic
+24|Covid-19 Pandemic|Topic
+24|Shirin Golchi|Author
+24|Efficient Estimation And Uncertainty Quantification|Topic
+24|Design Operating Characteristics|Topic
+24|Ordinal Disease-Progression Scale Endpoint|Topic
+24|Clinical Trial Design|Topic
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper
+25|Zifeng Wang|Author
+25|Chufan Gao|Author
+25|Lucas M. Glass|Author
+25|Jimeng Sun|Author
+25|Clinical Simulation|Topic
+25|Individualized Predictive Modeling|Topic
+25|Computer-Aided Trial Design|Topic
+26|Clinical Trial Outcome Prediction|Topic
+26|Language Interaction Network (Lint)|Topic
+26|Chufan Gao|Author
+26|Tianfan Fu|Author
+26|Jimeng Sun|Author
+26|Clinical Trials|Topic
+26|Biologics|Topic
+26|Machine Learning Models|Topic
+26|Roc-Auc Scores|Topic
+26|Drug Portfolio|Topic
+26|Small-Molecule Drugs|Topic
+26|Therapeutic Agents|Topic
+26|Graph Neural Networks|Topic
+26|Free-Text Descriptions|Topic
+26|Phases I, Ii, And Iii|Topic
+27|Rats|Topic
+27|Random Dot Motion Task|Topic
+27|Stimulus Integration|Topic
+27|Trial Difficulty|Topic
+27|Reward-Related Parameters|Topic
+27|Pamela Reinagel|Author
+27|Emily Mankin|Author
+27|Adam Calhoun|Author
+28|Bayesian Trial Monitoring Scheme|Topic
+28|Latent Gaussian Process (Lgp)|Topic
+28|Yanxun Xu|Author
+28|Yuan Ji|Author
+28|Clinical Trials|Topic
+28|Repeated Outcomes|Topic
+28|Binary Outcomes|Topic
+28|Posterior Inference|Topic
+28|Monte Carlo Algorithm|Topic
+28|Simulation Studies|Topic
+28|Case Study|Topic
+28|Real-Life Trial|Topic
+28|Trial Monitoring|Topic
+28|Futility|Topic
+28|Longitudinal Data|Topic
+28|Clinical Scenarios|Topic
+28|Observed Longitudinal Binary Outcomes|Topic
+28|Posterior Consistency Property|Topic
+28|Discrete Longitudinal Data|Topic
+28|Overall Trial Design|Topic
+28|Sample Size|Topic
+28|Power Calculation|Topic
+29|Clinical Trial Site Matching With Improved Diversity Using Fair Policy Learning|Paper

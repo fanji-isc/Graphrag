@@ -1,0 +1,161 @@
+docid,entityid,type
+0|Early Phase Clinical Trial|Topic
+0|Phase I Trials|Topic
+0|Cytotoxic Agents|Topic
+0|Bayesian Early Phase Trial Designs|Topic
+0|Peter F. Thall|Author
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper
+2|Pilot Studies Of Structured Treatment Interruptions (Sti) In Hiv Therapy|Topic
+2|Hiv Therapy|Topic
+2|Virologic Failure|Topic
+2|Novel Hypothesis|Topic
+2|Mathematical Model Of Hiv Within-Host Viral Dynamics|Topic
+2|Nonlinear Parametric Resonance|Topic
+2|Clinical Trial Data|Topic
+2|Patient-Specific Resonant Spectra|Topic
+2|Romulus Breban|Author
+2|Sally Blower|Author
+3|Preventive Vaccines|Topic
+3|Hiv|Topic
+3|Immune Response Markers|Topic
+3|Two-Phase Sampling|Topic
+3|Txshift R Package|Topic
+3|Nima S. Hejazi|Author
+3|Mark J. Van Der Laan|Author
+3|Holly E. Janes|Author
+3|Peter B. Gilbert|Author
+3|David C. Benkeser|Author
+4|Phase 1-2 Designs|Topic
+4|Optimal Dose|Topic
+4|Generalized Phase 1-2 Design|Topic
+4|Biological Outcome|Topic
+4|Bayesian Model Selection|Topic
+4|Therapeutically Optimal Dose|Topic
+4|Simulation Study|Topic
+4|Cheng-Han Yang|Author
+4|Peter F. Thall|Author
+4|Ruitao Lin|Author
+4|Demo|Paper
+5|Align|Topic
+5|Nabeel Seedat|Author
+5|Caterina Tozzi|Author
+5|Andrea Hita Ardiaca|Author
+5|Mihaela Van Der Schaar|Author
+5|James Weatherall|Author
+5|Adam Taylor|Author
+5|Large Language Models|Topic
+5|Anatomical Therapeutic Chemical|Topic
+5|Medical Dictionary For Regulatory Activities|Topic
+5|Clinical Trial Data|Topic
+5|Immunology Trials|Topic
+6|Ross M. Kedl|Author
+6|Sars-Cov2 And Variants Of Concern|Topic
+6|Moderna Phase Iii Clinical Trial|Topic
+6|Longitudinal Evaluation Of T And B Cell Immunity|Topic
+6|Covid-19 Vaccine Trial Participant|Topic
+6|An Immunological Autobiography|Paper
+7|Sleep Monitoring Algorithm|Topic
+7|Hao He|Author
+7|Chao Li|Author
+7|Wolfgang Ganglberger|Author
+7|Kaileigh Gallagher|Author
+7|Rumen Hristov|Author
+7|Michail Ouroutzoglou|Author
+7|Haoqi Sun|Author
+7|Jimeng Sun|Author
+7|Brandon Westover|Author
+7|Dina Katabi|Author
+8|Vaccine Efficacy Estimands|Topic
+8|Mats Stensrud|Author
+8|Daniel Nevo|Author
+8|Uri Obolski|Author
+8|Influenza Vaccine Trial|Topic
+9|Panacea|Topic
+9|Trialalign|Topic
+9|Trialinstruct|Topic
+9|Trialpanorama|Topic
+9|Jiacheng Lin|Author
+9|Hanwen Xu|Author
+9|Zifeng Wang|Author
+9|Sheng Wang|Author
+9|Jimeng Sun|Author
+10|Immune Correlates Of Protection|Topic
+10|Correlates Of Risk|Topic
+10|Controlled Vaccine Efficacy Curve|Topic
+10|Controlled-Risk Curve|Topic
+10|50% Neutralizing Antibody Titer|Topic
+10|Virologically Confirmed Dengue|Topic
+10|Cyd14|Paper
+10|Cyd15|Paper
+10|Peter B. Gilbert|Author
+10|Youyi Fong|Author
+10|Marco Carone|Author
+11|Trial2Vec|Topic
+11|Zifeng Wang|Author
+11|Jimeng Sun|Author
+11|Clinical Trials|Topic
+11|Umls Knowledge Base|Topic
+12|Clinical Trials|Topic
+12|Drug Development|Topic
+12|Trial Outcome Prediction|Topic
+12|Spot|Paper
+13|Drug Discovery And Development|Topic
+13|Clinical Trials|Topic
+13|Clinical Trial Outcome (Cto) Dataset|Paper
+13|Chufan Gao|Author
+13|Jathurshan Pradeepkumar|Author
+13|Trisha Das|Author
+13|Shivashankar Thati|Author
+13|Jimeng Sun|Author
+14|Matrix-Valued Time-Series Data Clustering|Topic
+14|Low-Dimensional Embedding|Topic
+14|Static Clinical Covariates|Topic
+14|High-Dimensional Longitudinal Features|Topic
+14|Sparse And Irregular Nature Of Sample Collection|Topic
+14|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper
+15|World Health Organization|Topic
+15|Hiv Treatment|Topic
+15|Viral Load Testing|Topic
+15|Tao Liu|Author
+15|Joseph W. Hogan|Author
+15|Lisa Wang|Author
+15|Shangxuan Zhang|Author
+15|Rami Kantor|Author
+15|Miriam Hospital Immunology Clinic|Topic
+16|Clinical Trials|Topic
+16|Nlp|Topic
+16|Eligibility Classification|Topic
+16|Phase 3 Cancer Trials|Topic
+16|Phase 1 And 2 Cancer Trials|Topic
+16|Heart Disease Trials|Topic
+16|Type 2 Diabetes Trials|Topic
+16|Observational Trials|Topic
+16|Yumeng Yang|Author
+16|Ashley Gilliam|Author
+16|Ethan B Ludmir|Author
+16|Kirk Roberts|Author
+16|Annotated Eligibility Criteria Dataset|Topic
+17|Trialsynth|Topic
+17|Chufan Gao|Author
+17|Mandis Beigi|Author
+17|Afrah Shafquat|Author
+17|Jacob Aptekar|Author
+17|Jimeng Sun|Author
+17|Clinical Trials|Topic
+17|Synthetic Data Generation|Topic
+17|Hawkes Processes|Topic
+17|Variational Autoencoder|Topic
+18|Natural Language Processing (Nlp) Of Clinical Trial Documents|Topic
+18|Ct-Bert|Topic
+18|Xiong Liu|Author
+18|Greg L. Hersch|Author
+18|Iya Khalil|Author
+18|Murthy Devarakonda|Author
+18|Clinical Trial Nlp|Topic
+18|Named Entity Recognition (Ner) Models|Topic
+18|Attention-Based Bilstm|Topic
+18|Criteria2Query|Topic
+19|Clinical Trial Outcome Prediction|Topic
+19|Ctp-Llm|Paper
+19|Phasetransition Dataset|Topic
+19|Gpt-3.5|Topic

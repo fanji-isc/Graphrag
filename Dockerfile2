@@ -1,0 +1,70 @@
+# Use Intersystems IRIS community edition as the base image
+ARG IMAGE=containers.intersystems.com/intersystems/iris-community:2024.3
+FROM $IMAGE as builder
+
+WORKDIR /home/irisowner/dev
+
+# Install required dependencies including Python, pip, and Flask
+RUN apt-get update && apt-get install -y python3-pip python3-dev
+
+# Copy your application files (make sure app.py and requirements.txt exist in your current directory)
+COPY . /home/irisowner/dev
+
+# Install Python dependencies (including Flask and others)
+RUN pip3 install -r /home/irisowner/dev/requirements.txt --break-system-packages
+
+# Setup the environment for IRIS (already done in your Dockerfile)
+ARG TESTS=0
+ARG MODULE="iris-graphrag"
+ARG NAMESPACE="IRISAPP"
+
+## Embedded Python environment
+ENV IRISUSERNAME "_SYSTEM"
+ENV IRISPASSWORD "SYS"
+ENV IRISNAMESPACE $NAMESPACE
+ENV PYTHON_PATH=/usr/irissys/bin/
+ENV PATH "/usr/irissys/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/irisowner/bin"
+
+COPY .iris_init /home/irisowner/.iris_init
+
+USER root
+
+# Install any additional required packages (uncomment if necessary)
+# RUN pip3 install -r /home/irisowner/dev/requirements.txt
+
+USER ${ISC_PACKAGE_MGRUSER}
+
+# Start IRIS, run the initialization, and stop IRIS
+RUN --mount=type=bind,src=.,dst=. \
+    iris start IRIS && \
+    iris session IRIS < iris.script && \
+    ([ $TESTS -eq 0 ] || iris session iris -U $NAMESPACE "##class(%ZPM.PackageManager).Shell(\"test $MODULE -v -only\",1,1)") && \
+    iris stop IRIS quietly
+
+# Second stage to prepare the final image
+FROM $IMAGE as final
+
+WORKDIR /home/irisowner/dev
+ENTRYPOINT ["python3", "app.py"]
+
+# Copy the application code and dependencies from the builder stage
+COPY --from=builder /home/irisowner/dev /home/irisowner/dev
+
+# Install the dependencies again in the final stage
+RUN pip3 install -r /home/irisowner/dev/requirements.txt --break-system-packages
+
+# Install Flask in case it's not included in requirements.txt
+RUN pip3 install flask
+
+# Expose the port Flask is going to run on (default 5000)
+EXPOSE 5000
+
+# Set environment variables for IRIS
+ENV IRISUSERNAME "_SYSTEM"
+ENV IRISPASSWORD "SYS"
+ENV IRISNAMESPACE IRISAPP
+ENV PYTHON_PATH=/usr/irissys/bin/
+ENV PATH "/usr/irissys/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/irisowner/bin"
+
+# The default command to run the Flask app (make sure app.py is present in the correct location)
+CMD ["python3", "/home/irisowner/dev/app.py"]

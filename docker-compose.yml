@@ -5,23 +5,66 @@ services:
       context: .
       dockerfile: Dockerfile
       target: final
+      # image: containers.intersystems.com/intersystems/iris-community:2024.3  # Set image name explicitly
+    # image: containers.intersystems.com/intersystems/iris:2024.3
+  # Set image name explicitly
     restart: always
     command: --check-caps false --ISCAgent false
+    # entrypoint: [ "/iris-main" ]
+    # command: --key /app/data/iris.key
+    
+
+
     ports:
       - 1972
       - 9092:52773
       - 53773
     volumes:
       - ./:/home/irisowner/dev
-  jupyter:
-    image: iscetchenko/iris-jupyter:latest
-    hostname: jupyter
-    container_name: jupyter
-    entrypoint: jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
-    ports:
-    - "4200:8888"
-    - "4201:6006"
-    volumes:
-    - type: bind
-      source: ./workspace
-      target: /home/jovyan/workspace
+      - ./workspace:/home/jovyan/workspace 
+      - ./workspace/CSV:/app/CSV
+      - ./workspace/flask/data:/app/data
+
+    environment:
+      IRISINSTALLDIR: "/opt/intersystems/iris"  # Set this to your IRIS directory path
+      IRISUSERNAME: "_SYSTEM"
+      IRISPASSWORD: "SYS"
+      IRISNAMESPACE: "IRISAPP"
+      PYTHON_PATH: "/usr/irissys/bin/"
+      PATH: "/usr/irissys/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/irisowner/bin"
+  # jupyter:
+  #   image: iscetchenko/iris-jupyter:latest
+  #   hostname: jupyter
+  #   container_name: jupyter
+  #   entrypoint: jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
+  #   ports:
+  #   - "4200:8888"
+  #   - "4201:6006"
+  #   volumes:
+  #   - type: bind
+  #     source: ./workspace
+  #     target: /home/jovyan/workspace
+
+  flask:
+      build:
+        context: ./workspace/flask  # Path to Flask app
+        dockerfile: Dockerfile
+      container_name: flask-container
+      restart: always
+      ports:
+        - "5000:5000"
+      volumes:
+        - ./workspace/flask:/app
+        - /usr/irissys/lib/python3.10/site-packages:/usr/irissys/lib/python3.10/site-packages
+
+      environment:
+        - PYTHONPATH=/usr/irissys/mgr/python  # Corrected path for IRIS Python integration
+
+        # - FLASK_ENV=development
+        # - FLASK_APP=app.py
+        # - PYTHONPATH=/usr/irissys/lib/python3.10/site-packages  # Path to iris module
+      #  - PYTHONPATH=/opt/conda/lib/python3.10/site-packages:/usr/irissys/lib/python  
+
+      depends_on:
+        - iris  # Ensure IRIS is running before Flask starts
+       

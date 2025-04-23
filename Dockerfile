@@ -9,7 +9,6 @@ WORKDIR /home/irisowner/dev
 ##USER ${ISC_PACKAGE_MGRUSER}
 
 ARG TESTS=0
-ARG MODULE="iris-graphrag"
 ARG NAMESPACE="IRISAPP"
 
 ## Embedded Python environment

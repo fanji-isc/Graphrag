@@ -1,0 +1,262 @@
+docid|source|sourcetype|target|targettype|type
+0|Bayesian Models And Decision Algorithms For Complex Early Phase Clinical Trials|Topic|Peter F. Thall|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Tianyu Zhan|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Yiwang Zhou|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Ziqian Geng|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Yihua Gu|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Jian Kang|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Li Wang|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Xiaohong Huang|Author|AUTHORED
+1|Deep Historical Borrowing Framework To Prospectively And Simultaneously Synthesize Control Information In Confirmatory Clinical Trials With Multiple Endpoints|Paper|Elizabeth H. Slate|Author|AUTHORED
+2|Pilot Studies Of Structured Treatment Interruptions In Hiv Therapy|Topic|Hiv Therapy|Topic|RELATED_TO
+2|Hiv Therapy|Topic|Virologic Failure|Topic|RELATED_TO
+2|Novel Hypothesis|Topic|Virologic Failure|Topic|DISCUSSES
+2|Mathematical Model Of Hiv Within-Host Viral Dynamics|Topic|Nonlinear Parametric Resonance|Topic|DISCUSSES
+2|Clinical Trial Data|Topic|Patient-Specific Resonant Spectra|Topic|DISCUSSES
+2|Immunologic And Virologic Parameters|Topic|Patient-Specific Resonant Spectra|Topic|DISCUSSES
+2|Romulus Breban|Author|Novel Hypothesis|Topic|AUTHORED
+2|Sally Blower|Author|Novel Hypothesis|Topic|AUTHORED
+3|Two-Phase Sampling|Topic|Immune Response Markers|Topic|RELATED_TO
+3|Preventive Vaccines|Topic|Hiv|Topic|RELATED_TO
+3|Txshift R Package|Topic|Nima S. Hejazi|Author|AUTHORED
+3|Txshift R Package|Topic|Mark J. Van Der Laan|Author|AUTHORED
+3|Txshift R Package|Topic|Holly E. Janes|Author|AUTHORED
+3|Txshift R Package|Topic|Peter B. Gilbert|Author|AUTHORED
+3|Txshift R Package|Topic|David C. Benkeser|Author|AUTHORED
+4|Phase 1-2 Designs|Topic|Dose Finding|Topic|RELATED_TO
+4|Phase 1-2 Designs|Topic|Clinical Response|Topic|RELATED_TO
+4|Phase 1-2 Designs|Topic|Toxicity|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Candidate Doses|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Patients|Topic|RELATED_TO
+4|Generalized Phase 1-2 Design|Topic|Long-Term Success Rate|Topic|RELATED_TO
+4|Biological Outcome|Topic|Pharmacodynamic Activity|Topic|RELATED_TO
+4|Biological Outcome|Topic|Immunological Effect|Topic|RELATED_TO
+4|Multivariate Dose-Outcome Models|Topic|Clinical Outcomes|Topic|RELATED_TO
+4|Bayesian Model Selection|Topic|Biologically Inactive Doses|Topic|RELATED_TO
+4|Therapeutically Optimal Dose|Topic|Restricted Mean Survival Time|Topic|RELATED_TO
+4|Simulation Study|Topic|Proposed Design|Topic|RELATED_TO
+4|Demo|Paper|Cheng-Han Yang|Author|AUTHORED
+4|Demo|Paper|Peter F. Thall|Author|AUTHORED
+4|Demo|Paper|Ruitao Lin|Author|AUTHORED
+5|Randomized Controlled Trials|Topic|Intercurrent Events|Topic|DISCUSSES
+5|Immunology Trials|Topic|Intercurrent Events|Topic|DISCUSSES
+5|Treatment-Related Intercurrent Events|Topic|Composite Variable Strategy|Topic|DISCUSSES
+5|Treatment-Unrelated Intercurrent Events|Topic|Hypothetical Strategy|Topic|DISCUSSES
+5|Causal Estimand|Topic|Doubly Robust Estimators|Topic|DISCUSSES
+5|Baricitinib|Topic|Systemic Lupus Erythematosus|Topic|RELATED_TO
+5|Sizhu Lu|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+5|Yanyao Yi|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+5|Yongming Qu|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+5|Huayu Karen Liu|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+5|Ting Ye|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+5|Peng Ding|Author|Estimating Treatment Effects With Competing Intercurrent Events In Randomized Controlled Trials|Paper|AUTHORED
+6|Align|Topic|Large Language Models|Topic|RELATED_TO
+6|Align|Topic|Anatomical Therapeutic Chemical|Topic|RELATED_TO
+6|Align|Topic|Medical Dictionary For Regulatory Activities|Topic|RELATED_TO
+6|Nabeel Seedat|Author|Align|Topic|AUTHORED
+6|Caterina Tozzi|Author|Align|Topic|AUTHORED
+6|Andrea Hita Ardiaca|Author|Align|Topic|AUTHORED
+6|Mihaela Van Der Schaar|Author|Align|Topic|AUTHORED
+6|James Weatherall|Author|Align|Topic|AUTHORED
+6|Adam Taylor|Author|Align|Topic|AUTHORED
+7|Ross M. Kedl|Author|An Immunological Autobiography|Paper|AUTHORED
+7|An Immunological Autobiography|Paper|Sars-Cov2|Topic|DISCUSSES
+7|An Immunological Autobiography|Paper|Moderna Phase Iii Clinical Trial|Topic|DISCUSSES
+7|An Immunological Autobiography|Paper|Covid-19 Vaccine Trial|Topic|DISCUSSES
+7|An Immunological Autobiography|Paper|Longitudinal Evaluation Of T And B Cell Immunity|Topic|DISCUSSES
+8|Sleep Monitoring Algorithm|Topic|Hao He|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Chao Li|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Wolfgang Ganglberger|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Kaileigh Gallagher|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Rumen Hristov|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Michail Ouroutzoglou|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Haoqi Sun|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Jimeng Sun|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Brandon Westover|Author|AUTHORED
+8|Sleep Monitoring Algorithm|Topic|Dina Katabi|Author|AUTHORED
+9|Vaccine Efficacy Estimands|Topic|Immunological Effects|Topic|RELATED_TO
+9|Vaccine Efficacy Estimands|Topic|Behavioral Effects|Topic|RELATED_TO
+9|Mats Stensrud|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
+9|Daniel Nevo|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
+9|Uri Obolski|Author|Vaccine Efficacy Estimands|Topic|AUTHORED
+9|Influenza Vaccine Trial|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+9|Belief Variable|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+9|Blinding Assessment|Topic|Belief Variable|Topic|RELATED_TO
+9|Vaccine Trials|Topic|Vaccine Efficacy Estimands|Topic|RELATED_TO
+10|Panacea|Topic|Trialalign|Topic|RELATED_TO
+10|Panacea|Topic|Trialinstruct|Topic|RELATED_TO
+10|Panacea|Topic|Trialpanorama|Topic|RELATED_TO
+10|Panacea|Topic|Jiacheng Lin|Author|AUTHORED
+10|Panacea|Topic|Hanwen Xu|Author|AUTHORED
+10|Panacea|Topic|Zifeng Wang|Author|AUTHORED
+10|Panacea|Topic|Sheng Wang|Author|AUTHORED
+10|Panacea|Topic|Jimeng Sun|Author|AUTHORED
+11|Immune Correlates Of Protection|Topic|Correlates Of Risk|Topic|RELATED_TO
+11|Correlates Of Risk|Topic|Controlled Vaccine Efficacy Curve|Topic|RELATED_TO
+11|Controlled Vaccine Efficacy Curve|Topic|Controlled-Risk Curve|Topic|RELATED_TO
+11|Controlled Vaccine Efficacy Curve|Topic|50% Neutralizing Antibody Titer|Topic|RELATED_TO
+11|50% Neutralizing Antibody Titer|Topic|Virologically Confirmed Dengue|Topic|RELATED_TO
+11|Cyd14|Paper|Peter B. Gilbert|Author|AUTHORED
+11|Cyd14|Paper|Youyi Fong|Author|AUTHORED
+11|Cyd14|Paper|Marco Carone|Author|AUTHORED
+11|Cyd15|Paper|Peter B. Gilbert|Author|AUTHORED
+11|Cyd15|Paper|Youyi Fong|Author|AUTHORED
+11|Cyd15|Paper|Marco Carone|Author|AUTHORED
+13|Trial2Vec|Topic|Zifeng Wang|Author|AUTHORED
+13|Trial2Vec|Topic|Jimeng Sun|Author|AUTHORED
+13|Trial2Vec|Topic|Clinical Trials|Topic|DISCUSSES
+13|Trial2Vec|Topic|Umls Knowledge Base|Topic|RELATED_TO
+14|Spot|Topic|Clinical Trials|Topic|RELATED_TO
+14|Zifeng Wang|Author|Spot|Topic|AUTHORED
+14|Cao Xiao|Author|Spot|Topic|AUTHORED
+14|Jimeng Sun|Author|Spot|Topic|AUTHORED
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Matrix-Valued Time-Series Data Clustering|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Low-Dimensional Embedding|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Static Clinical Covariates|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|High-Dimensional Longitudinal Features|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Sparse And Irregular Nature Of Sample Collection|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Intensive Simulations|Topic|DISCUSSES
+15|Smoothed Probabilistic Parafac Model With Covariates (Spaco)|Paper|Immunological Data Set From Patients With Sars-Cov-2 Infection|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|World Health Organization|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Hiv Treatment|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Resource-Limited Settings|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Clinical And Immunological Markers|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Cd4 Cell Counts|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Viral Load|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Diagnostic Algorithm|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Miriam Hospital Immunology Clinic|Topic|DISCUSSES
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Tao Liu|Author|AUTHORED
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Joseph W. Hogan|Author|AUTHORED
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Lisa Wang|Author|AUTHORED
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Shangxuan Zhang|Author|AUTHORED
+16|Optimal Allocation Of Gold Standard Testing Under Constrained Availability: Application To Assessment Of Hiv Treatment Failure|Paper|Rami Kantor|Author|AUTHORED
+17|Clinical Trials|Topic|Nlp|Topic|RELATED_TO
+17|Eligibility Classification|Topic|Phase 3 Cancer Trials|Topic|RELATED_TO
+17|Eligibility Classification|Topic|Non-Cancer Trials|Topic|RELATED_TO
+17|Phase 3 Cancer Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Phase 1 And 2 Cancer Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Heart Disease Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Type 2 Diabetes Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Observational Trials|Topic|Annotated Eligibility Criteria Dataset|Topic|RELATED_TO
+17|Yumeng Yang|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Ashley Gilliam|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Ethan B Ludmir|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Kirk Roberts|Author|Exploring The Generalization Of Cancer Clinical Trial Eligibility Classifiers Across Diseases|Paper|AUTHORED
+17|Few-Shot Learning|Topic|Cross-Disease Generalization|Topic|RELATED_TO
+18|Trialsynth|Topic|Chufan Gao|Author|AUTHORED
+18|Trialsynth|Topic|Mandis Beigi|Author|AUTHORED
+18|Trialsynth|Topic|Afrah Shafquat|Author|AUTHORED
+18|Trialsynth|Topic|Jacob Aptekar|Author|AUTHORED
+18|Trialsynth|Topic|Jimeng Sun|Author|AUTHORED
+19|Ct-Bert|Topic|Named Entity Recognition (Ner) Models|Topic|DISCUSSES
+19|Ct-Bert|Topic|Clinical Trial Nlp|Topic|DISCUSSES
+19|Xiong Liu|Author|Ct-Bert|Topic|AUTHORED
+19|Greg L. Hersch|Author|Ct-Bert|Topic|AUTHORED
+19|Iya Khalil|Author|Ct-Bert|Topic|AUTHORED
+19|Murthy Devarakonda|Author|Ct-Bert|Topic|AUTHORED
+19|Ct-Bert|Topic|Attention-Based Bilstm|Topic|RELATED_TO
+19|Ct-Bert|Topic|Criteria2Query|Topic|RELATED_TO
+20|Ctp-Llm|Topic|Phasetransition Dataset|Topic|RELATED_TO
+20|Ctp-Llm|Topic|Clinical Trial Outcome Prediction|Topic|RELATED_TO
+20|Michael Reinisch|Author|Ctp-Llm|Topic|AUTHORED
+20|Jianfeng He|Author|Ctp-Llm|Topic|AUTHORED
+20|Chenxi Liao|Author|Ctp-Llm|Topic|AUTHORED
+20|Sauleh Ahmad Siddiqui|Author|Ctp-Llm|Topic|AUTHORED
+20|Bei Xiao|Author|Ctp-Llm|Topic|AUTHORED
+21|Clinical Trial Outcome (Cto) Benchmark|Topic|Clinical Trials|Topic|RELATED_TO
+21|Chufan Gao|Author|Clinical Trial Outcome (Cto) Benchmark|Topic|AUTHORED
+21|Jathurshan Pradeepkumar|Author|Clinical Trial Outcome (Cto) Benchmark|Topic|AUTHORED
+21|Trisha Das|Author|Clinical Trial Outcome (Cto) Benchmark|Topic|AUTHORED
+21|Shivashankar Thati|Author|Clinical Trial Outcome (Cto) Benchmark|Topic|AUTHORED
+21|Jimeng Sun|Author|Clinical Trial Outcome (Cto) Benchmark|Topic|AUTHORED
+21|Drug Discovery And Development|Topic|Clinical Trials|Topic|RELATED_TO
+22|Machine Learning|Topic|Clinical Domain|Topic|RELATED_TO
+22|Data Scarcity|Topic|Clinical Trials|Topic|RELATED_TO
+22|Ethical Considerations|Topic|Clinical Trials|Topic|RELATED_TO
+22|Clinical Trials|Topic|Privacy Regulations|Topic|RELATED_TO
+22|Clinical Trials|Topic|High Costs|Topic|RELATED_TO
+22|Clinical Trials|Topic|Extended Duration|Topic|RELATED_TO
+22|Large Language Models|Topic|Synthetic Clinical Trials|Topic|RELATED_TO
+22|Retrieval-Reasoning Few-Shot Framework|Topic|Synthetic Clinical Trials|Topic|RELATED_TO
+22|Synthetic Clinical Trials|Topic|Binary Success/Failure Labels|Topic|RELATED_TO
+22|Clinicaltrials.Gov|Topic|Synthetic Data|Topic|RELATED_TO
+22|Synthetic Data|Topic|Real Datasets|Topic|RELATED_TO
+22|Pre-Trained Model|Topic|Binary Classifier|Topic|RELATED_TO
+22|Binary Classifier|Topic|Trial Outcome Prediction|Topic|RELATED_TO
+22|Zerui Xu|Author|Https://Anonymous.4Open.Science/R/Retrieval_Reasoning_Clinical_Trial_Generation-3Ec4|Paper|AUTHORED
+22|Fang Wu|Author|Https://Anonymous.4Open.Science/R/Retrieval_Reasoning_Clinical_Trial_Generation-3Ec4|Paper|AUTHORED
+22|Yuanyuan Zhang|Author|Https://Anonymous.4Open.Science/R/Retrieval_Reasoning_Clinical_Trial_Generation-3Ec4|Paper|AUTHORED
+22|Yue Zhao|Author|Https://Anonymous.4Open.Science/R/Retrieval_Reasoning_Clinical_Trial_Generation-3Ec4|Paper|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Tianyang Wang|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Ming Liu|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Benji Peng|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Xinyuan Song|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Charles Zhang|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Xintian Sun|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Qian Niu|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Junyu Liu|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Silin Chen|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Keyu Chen|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Ming Li|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Pohsun Feng|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Ziqian Bi|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Yunze Wang|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Yichao Zhang|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Cheng Fei|Author|AUTHORED
+23|From Bench To Bedside: A Review Of Clinical Trials In Drug Discovery And Development|Paper|Lawrence Kq Yan|Author|AUTHORED
+23|Clinical Trials|Topic|Drug Development|Topic|RELATED_TO
+23|Phase I|Topic|Clinical Trials|Topic|RELATED_TO
+23|Phase Ii|Topic|Clinical Trials|Topic|RELATED_TO
+23|Phase Iii|Topic|Clinical Trials|Topic|RELATED_TO
+23|Phase Iv|Topic|Clinical Trials|Topic|RELATED_TO
+23|Challenges In Clinical Trials|Topic|Clinical Trials|Topic|RELATED_TO
+23|Innovative Technologies|Topic|Clinical Trials|Topic|RELATED_TO
+23|Emerging Therapies|Topic|Clinical Trials|Topic|RELATED_TO
+23|Regulatory Reforms|Topic|Clinical Trials|Topic|RELATED_TO
+23|Global Collaboration|Topic|Clinical Trials|Topic|RELATED_TO
+24|Bayesian Adaptive Designs|Topic|Clinical Trials|Topic|RELATED_TO
+24|Covid-19 Pandemic|Topic|Clinical Trials|Topic|RELATED_TO
+24|Shirin Golchi|Author|Efficient Estimation And Uncertainty Quantification|Topic|AUTHORED
+24|Efficient Estimation And Uncertainty Quantification|Topic|Design Operating Characteristics|Topic|RELATED_TO
+24|Design Operating Characteristics|Topic|Ordinal Disease-Progression Scale Endpoint|Topic|RELATED_TO
+24|Clinical Trial Design|Topic|Covid-19 Pandemic|Topic|RELATED_TO
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Zifeng Wang|Author|AUTHORED
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Chufan Gao|Author|AUTHORED
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Lucas M. Glass|Author|AUTHORED
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Jimeng Sun|Author|AUTHORED
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Clinical Simulation|Topic|RELATED_TO
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Individualized Predictive Modeling|Topic|RELATED_TO
+25|Artificial Intelligence For In Silico Clinical Trials: A Review|Paper|Computer-Aided Trial Design|Topic|RELATED_TO
+26|Clinical Trial Outcome Prediction|Topic|Machine Learning Models|Topic|DISCUSSES
+26|Clinical Trial Outcome Prediction|Topic|Clinical Trials|Topic|DISCUSSES
+26|Clinical Trial Outcome Prediction|Topic|Drug Portfolio|Topic|DISCUSSES
+26|Language Interaction Network (Lint)|Topic|Clinical Trial Outcome Prediction|Topic|RELATED_TO
+26|Language Interaction Network (Lint)|Topic|Free-Text Descriptions|Topic|DISCUSSES
+26|Language Interaction Network (Lint)|Topic|Roc-Auc Scores|Topic|DISCUSSES
+26|Chufan Gao|Author|Language Interaction Network (Lint)|Topic|AUTHORED
+26|Tianfan Fu|Author|Language Interaction Network (Lint)|Topic|AUTHORED
+26|Jimeng Sun|Author|Language Interaction Network (Lint)|Topic|AUTHORED
+26|Biologics|Topic|Clinical Trial Outcome Prediction|Topic|RELATED_TO
+26|Small-Molecule Drugs|Topic|Clinical Trial Outcome Prediction|Topic|RELATED_TO
+26|Graph Neural Networks|Topic|Biologics|Topic|DISCUSSES
+26|Phases I, Ii, And Iii|Topic|Language Interaction Network (Lint)|Topic|RELATED_TO
+27|Rats|Topic|Random Dot Motion Task|Topic|RELATED_TO
+27|Random Dot Motion Task|Topic|Stimulus Integration|Topic|DISCUSSES
+27|Rats|Topic|Trial Difficulty|Topic|RELATED_TO
+27|Rats|Topic|Reward-Related Parameters|Topic|RELATED_TO
+27|Pamela Reinagel|Author|Rats|Topic|AUTHORED
+27|Emily Mankin|Author|Rats|Topic|AUTHORED
+27|Adam Calhoun|Author|Rats|Topic|AUTHORED
+28|Bayesian Trial Monitoring Scheme|Topic|Clinical Trials|Topic|RELATED_TO
+28|Latent Gaussian Process (Lgp)|Topic|Discrete Longitudinal Data|Topic|RELATED_TO
+28|Yanxun Xu|Author|A Latent Gaussian Process Model With Application To Monitoring Clinical Trials|Paper|AUTHORED
+28|Yuan Ji|Author|A Latent Gaussian Process Model With Application To Monitoring Clinical Trials|Paper|AUTHORED
+28|Posterior Inference|Topic|Monte Carlo Algorithm|Topic|RELATED_TO
+28|Simulation Studies|Topic|Clinical Scenarios|Topic|RELATED_TO
+28|Case Study|Topic|Real-Life Trial|Topic|RELATED_TO
+28|Trial Monitoring|Topic|Futility|Topic|RELATED_TO
+28|Repeated Outcomes|Topic|Binary Outcomes|Topic|RELATED_TO
+28|Posterior Consistency Property|Topic|Latent Gaussian Process (Lgp)|Topic|RELATED_TO
+28|Observed Longitudinal Binary Outcomes|Topic|Latent Gaussian Process (Lgp)|Topic|RELATED_TO
+28|Overall Trial Design|Topic|Sample Size|Topic|RELATED_TO
+28|Overall Trial Design|Topic|Power Calculation|Topic|RELATED_TO

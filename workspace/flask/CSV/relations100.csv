@@ -1,0 +1,960 @@
+docid,source,sourcetype,target,targettype,type
+0,Retrieval-Augmented Generation (Rag),Topic,Graphrag,Topic,RELATED_TO
+0,Graphrag,Topic,Question Answering,Topic,RELATED_TO
+0,Graphrag,Topic,Query-Based Summarization,Topic,RELATED_TO
+0,Haoyu Han,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Harry Shomer,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Yu Wang,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Yongjia Lei,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Kai Guo,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Zhigang Hua,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Bo Long,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Hui Liu,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+0,Jiliang Tang,Author,Rag Vs. Graphrag: A Systematic Evaluation And Key Insights,Paper,AUTHORED
+1,Graphrag-Fi,Topic,Graphrag,Topic,COVERS
+1,Graphrag-Fi,Topic,Graphrag-Filtering,Topic,INCLUDES
+1,Graphrag-Fi,Topic,Graphrag-Integration,Topic,INCLUDES
+1,Graphrag,Topic,Large Language Models,Topic,RELATED_TO
+1,Large Language Models,Topic,Natural Language Processing,Topic,RELATED_TO
+1,Graphrag-Filtering,Topic,Noisy And Irrelevant Information,Topic,RELATED_TO
+1,Graphrag-Integration,Topic,External Knowledge,Topic,RELATED_TO
+1,Graphrag-Integration,Topic,Intrinsic Reasoning,Topic,RELATED_TO
+1,Graphrag-Fi,Topic,Knowledge Graph Qa Tasks,Topic,RELATED_TO
+1,Knowledge Graph Qa Tasks,Topic,Reasoning Performance,Topic,RELATED_TO
+1,Kai Guo,Author,Graphrag-Fi,Topic,AUTHORED
+1,Harry Shomer,Author,Graphrag-Fi,Topic,AUTHORED
+1,Shenglai Zeng,Author,Graphrag-Fi,Topic,AUTHORED
+1,Haoyu Han,Author,Graphrag-Fi,Topic,AUTHORED
+1,Yu Wang,Author,Graphrag-Fi,Topic,AUTHORED
+1,Jiliang Tang,Author,Graphrag-Fi,Topic,AUTHORED
+2,Graphrag,Topic,Gragpoison,Topic,RELATED_TO
+2,Gragpoison,Topic,Jiacheng Liang,Author,AUTHORED
+2,Gragpoison,Topic,Yuhui Wang,Author,AUTHORED
+2,Gragpoison,Topic,Changjiang Li,Author,AUTHORED
+2,Gragpoison,Topic,Rongyi Zhu,Author,AUTHORED
+2,Gragpoison,Topic,Tanqiu Jiang,Author,AUTHORED
+2,Gragpoison,Topic,Neil Gong,Author,AUTHORED
+2,Gragpoison,Topic,Ting Wang,Author,AUTHORED
+3,Large Language Models (Llms),Topic,Retrieval-Augmented Generation (Rag),Topic,RELATED_TO
+3,Retrieval-Augmented Generation (Rag),Topic,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,RELATED_TO
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Qinggang Zhang,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Shengyuan Chen,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Yuanchen Bei,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Zheng Yuan,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Huachi Zhou,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Zijin Hong,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Junnan Dong,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Hao Chen,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Yi Chang,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Xiao Huang,Author,AUTHORED
+3,Graph-Based Retrieval-Augmented Generation (Graphrag),Topic,Https://Github.Com/Deep-Polyu/Awesome-Graphrag,Topic,COVERS
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Hairong Zhang,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Jiaheng Si,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Guohang Yan,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Boyuan Qi,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Pinlong Cai,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Song Mao,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Ding Wang,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Botian Shi,Author,AUTHORED
+4,Document-Level Retrieval Augmented Knowledge Graph Construction,Paper,Mine Dataset,Topic,INCLUDES
+5,Gfm-Rag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+5,Gfm-Rag,Topic,Graphrag,Topic,RELATED_TO
+5,Gfm-Rag,Topic,Linhao Luo,Author,AUTHORED
+5,Gfm-Rag,Topic,Zicheng Zhao,Author,AUTHORED
+5,Gfm-Rag,Topic,Gholamreza Haffari,Author,AUTHORED
+5,Gfm-Rag,Topic,Dinh Phung,Author,AUTHORED
+5,Gfm-Rag,Topic,Chen Gong,Author,AUTHORED
+5,Gfm-Rag,Topic,Shirui Pan,Author,AUTHORED
+6,Retrieval-Augmented Generation (Rag),Topic,Query-Focused Summarization (Qfs),Topic,RELATED_TO
+6,Graphrag,Topic,Query-Focused Summarization (Qfs),Topic,RELATED_TO
+6,Context-Aware Fine-Grained Graph Rag (Fg-Rag),Topic,Query-Focused Summarization (Qfs),Topic,RELATED_TO
+6,Context-Aware Fine-Grained Graph Rag (Fg-Rag),Topic,Context-Aware Entity Expansion,Topic,INCLUDES
+6,Context-Aware Fine-Grained Graph Rag (Fg-Rag),Topic,Query-Level Fine-Grained Summarization,Topic,INCLUDES
+6,Yubin Hong,Author,Https://Github.Com/Buptwululu/Fg-Rag,Paper,AUTHORED
+6,Chaofan Li,Author,Https://Github.Com/Buptwululu/Fg-Rag,Paper,AUTHORED
+6,Jingyi Zhang,Author,Https://Github.Com/Buptwululu/Fg-Rag,Paper,AUTHORED
+6,Yingxia Shao,Author,Https://Github.Com/Buptwululu/Fg-Rag,Paper,AUTHORED
+7,Graphraft,Topic,Knowledge Graphs,Topic,COVERS
+7,Graphrag,Topic,Knowledge Graphs,Topic,RELATED_TO
+7,Retrieval-Augmented Generation,Topic,Large Language Models,Topic,RELATED_TO
+7,Graphraft,Topic,Alfred Clemedtson,Author,AUTHORED
+7,Graphraft,Topic,Borun Shi,Author,AUTHORED
+8,Graphrag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+8,Graphrag,Topic,Large Language Models,Topic,RELATED_TO
+8,Graphrag,Topic,Graph-Based Indexing,Topic,INCLUDES
+8,Graphrag,Topic,Graph-Guided Retrieval,Topic,INCLUDES
+8,Graphrag,Topic,Graph-Enhanced Generation,Topic,INCLUDES
+8,Graphrag-Survey,Paper,Boci Peng,Author,AUTHORED
+8,Graphrag-Survey,Paper,Yun Zhu,Author,AUTHORED
+8,Graphrag-Survey,Paper,Yongchao Liu,Author,AUTHORED
+8,Graphrag-Survey,Paper,Xiaohe Bo,Author,AUTHORED
+8,Graphrag-Survey,Paper,Haizhou Shi,Author,AUTHORED
+8,Graphrag-Survey,Paper,Chuntao Hong,Author,AUTHORED
+8,Graphrag-Survey,Paper,Yan Zhang,Author,AUTHORED
+8,Graphrag-Survey,Paper,Siliang Tang,Author,AUTHORED
+9,Retrieval-Augmented Generation (Rag),Topic,Graphrag,Topic,RELATED_TO
+9,Graphrag,Topic,Haoyu Han,Author,AUTHORED
+9,Graphrag,Topic,Yu Wang,Author,AUTHORED
+9,Graphrag,Topic,Harry Shomer,Author,AUTHORED
+9,Graphrag,Topic,Kai Guo,Author,AUTHORED
+9,Graphrag,Topic,Jiayuan Ding,Author,AUTHORED
+9,Graphrag,Topic,Yongjia Lei,Author,AUTHORED
+9,Graphrag,Topic,Mahantesh Halappanavar,Author,AUTHORED
+9,Graphrag,Topic,Ryan A. Rossi,Author,AUTHORED
+9,Graphrag,Topic,Subhabrata Mukherjee,Author,AUTHORED
+9,Graphrag,Topic,Xianfeng Tang,Author,AUTHORED
+9,Graphrag,Topic,Qi He,Author,AUTHORED
+9,Graphrag,Topic,Zhigang Hua,Author,AUTHORED
+9,Graphrag,Topic,Bo Long,Author,AUTHORED
+9,Graphrag,Topic,Tong Zhao,Author,AUTHORED
+9,Graphrag,Topic,Neil Shah,Author,AUTHORED
+9,Graphrag,Topic,Amin Javari,Author,AUTHORED
+9,Graphrag,Topic,Yinglong Xia,Author,AUTHORED
+9,Graphrag,Topic,Jiliang Tang,Author,AUTHORED
+10,Graphrag,Topic,Large Language Models,Topic,RELATED_TO
+10,Graphrag,Topic,Reasoning Accuracy,Topic,RELATED_TO
+10,Graphrag,Topic,Contextual Relevance,Topic,RELATED_TO
+10,Graphrag,Topic,Databases,Topic,RELATED_TO
+10,Graphrag,Topic,Natural Language Processing,Topic,RELATED_TO
+10,Lego-Graphrag,Topic,Modular Workflow Analysis,Topic,INCLUDES
+10,Lego-Graphrag,Topic,Systematic Solution Frameworks,Topic,INCLUDES
+10,Lego-Graphrag,Topic,Empirical Studies,Topic,INCLUDES
+10,Lego-Graphrag,Topic,Reasoning Quality,Topic,RELATED_TO
+10,Lego-Graphrag,Topic,Runtime Efficiency,Topic,RELATED_TO
+10,Lego-Graphrag,Topic,Token Or Gpu Cost,Topic,RELATED_TO
+10,Lego-Graphrag,Topic,Advanced Graphrag Systems,Topic,RELATED_TO
+10,Yukun Cao,Author,Lego-Graphrag,Topic,AUTHORED
+10,Zengyi Gao,Author,Lego-Graphrag,Topic,AUTHORED
+10,Zhiyang Li,Author,Lego-Graphrag,Topic,AUTHORED
+10,Xike Xie,Author,Lego-Graphrag,Topic,AUTHORED
+10,Kevin Zhou,Author,Lego-Graphrag,Topic,AUTHORED
+10,Jianliang Xu,Author,Lego-Graphrag,Topic,AUTHORED
+11,Graph Retrieval-Augmented Generation (Graphrag),Topic,Large Language Models (Llms),Topic,RELATED_TO
+11,Graph Retrieval-Augmented Generation (Graphrag),Topic,Knowledge Graphs (Kgs),Topic,RELATED_TO
+11,Knowledge Graph-Based Iterative Retrieval-Augmented Generation (Kg-Irag),Paper,Knowledge Graphs (Kgs),Topic,INCLUDES
+11,Knowledge Graph-Based Iterative Retrieval-Augmented Generation (Kg-Irag),Paper,Large Language Models (Llms),Topic,INCLUDES
+11,Knowledge Graph-Based Iterative Retrieval-Augmented Generation (Kg-Irag),Paper,Weatherqa-Irish,Topic,INCLUDES
+11,Knowledge Graph-Based Iterative Retrieval-Augmented Generation (Kg-Irag),Paper,Weatherqa-Sydney,Topic,INCLUDES
+11,Knowledge Graph-Based Iterative Retrieval-Augmented Generation (Kg-Irag),Paper,Trafficqa-Tfnsw,Topic,INCLUDES
+12,Knowledge Graphs,Topic,Graphrags,Topic,COVERS
+12,Graphrags,Topic,Retrieval-Augmented Generative Systems,Topic,RELATED_TO
+12,Gpt-4,Author,High-Quality Kgs,Topic,AUTHORED
+12,Llama 2 (13B),Author,Domain-Specific Graphs,Topic,AUTHORED
+12,Bert,Author,Entity-Relationship Modeling,Topic,AUTHORED
+12,Ahan Bhatt,Author,"Generating Knowledge Graphs From Large Language Models: A Comparative Study Of Gpt-4, Llama 2, And Bert",Paper,AUTHORED
+12,Nandan Vaghela,Author,"Generating Knowledge Graphs From Large Language Models: A Comparative Study Of Gpt-4, Llama 2, And Bert",Paper,AUTHORED
+12,Kush Dudhia,Author,"Generating Knowledge Graphs From Large Language Models: A Comparative Study Of Gpt-4, Llama 2, And Bert",Paper,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Yang Xiong,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Ruichen Zhang,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Yinqiu Liu,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Dusit Niyato,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Zehui Xiong,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Ying-Chang Liang,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Shiwen Mao,Author,AUTHORED
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Retrieval Augmented Generation,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Large Language Models,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Knowledge Graphs,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Intent-Driven Networks,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Spectrum Knowledge Maps,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Graphrag,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Channel Gain Prediction,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Network Optimizations,Topic,INCLUDES
+13,When Graph Meets Retrieval Augmented Generation For Wireless Networks: A Tutorial And Case Study,Paper,Networking Applications,Topic,INCLUDES
+14,Hypergraphrag,Topic,Retrieval-Augmented Generation,Topic,COVERS
+14,Hypergraphrag,Topic,Graphrag,Topic,COVERS
+14,Hypergraphrag,Topic,Medicine,Topic,RELATED_TO
+14,Hypergraphrag,Topic,Agriculture,Topic,RELATED_TO
+14,Hypergraphrag,Topic,Computer Science,Topic,RELATED_TO
+14,Hypergraphrag,Topic,Law,Topic,RELATED_TO
+14,Haoran Luo,Author,Hypergraphrag,Topic,AUTHORED
+14,Haihong E,Author,Hypergraphrag,Topic,AUTHORED
+14,Guanting Chen,Author,Hypergraphrag,Topic,AUTHORED
+14,Yandan Zheng,Author,Hypergraphrag,Topic,AUTHORED
+14,Xiaobao Wu,Author,Hypergraphrag,Topic,AUTHORED
+14,Yikai Guo,Author,Hypergraphrag,Topic,AUTHORED
+14,Qika Lin,Author,Hypergraphrag,Topic,AUTHORED
+14,Yu Feng,Author,Hypergraphrag,Topic,AUTHORED
+14,Zemin Kuang,Author,Hypergraphrag,Topic,AUTHORED
+14,Meina Song,Author,Hypergraphrag,Topic,AUTHORED
+14,Yifan Zhu,Author,Hypergraphrag,Topic,AUTHORED
+14,Luu Anh Tuan,Author,Hypergraphrag,Topic,AUTHORED
+15,Gtr: Graph-Table-Rag For Cross-Table Question Answering,Paper,Mutlitableqa,Topic,INCLUDES
+16,Retrieval-Augmented Generation,Topic,Large Language Models,Topic,RELATED_TO
+16,Graphrag,Topic,Question-Focused Summarization,Topic,COVERS
+16,Darren Edge,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Ha Trinh,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Newman Cheng,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Joshua Bradley,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Alex Chao,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Apurva Mody,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Steven Truitt,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Dasha Metropolitansky,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Robert Osazuwa Ness,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+16,Jonathan Larson,Author,From Local To Global: A Graph Rag Approach To Query-Focused Summarization,Paper,AUTHORED
+17,Fastrag,Topic,Large Language Models,Topic,RELATED_TO
+17,Fastrag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+17,Fastrag,Topic,Vectorrag,Topic,RELATED_TO
+17,Fastrag,Topic,Graphrag,Topic,RELATED_TO
+17,Fastrag,Topic,Amar Abane,Author,AUTHORED
+17,Fastrag,Topic,Anis Bekri,Author,AUTHORED
+17,Fastrag,Topic,Abdella Battou,Author,AUTHORED
+18,Noderag,Topic,Retrieval-Augmented Generation,Topic,COVERS
+18,Noderag,Topic,Graphrag,Topic,RELATED_TO
+18,Noderag,Topic,Lightrag,Topic,RELATED_TO
+18,Noderag,Topic,Tianyang Xu,Author,AUTHORED
+18,Noderag,Topic,Haojie Zheng,Author,AUTHORED
+18,Noderag,Topic,Chengze Li,Author,AUTHORED
+18,Noderag,Topic,Haoxiang Chen,Author,AUTHORED
+18,Noderag,Topic,Yixin Liu,Author,AUTHORED
+18,Noderag,Topic,Ruoxi Chen,Author,AUTHORED
+18,Noderag,Topic,Lichao Sun,Author,AUTHORED
+19,Graphrag,Topic,Large Language Models,Topic,RELATED_TO
+19,Graphrag,Topic,External Knowledge Graphs,Topic,RELATED_TO
+19,Polyg,Paper,Sota Graphrag Methods,Topic,RELATED_TO
+19,Polyg,Paper,Four-Class Taxonomy,Topic,RELATED_TO
+19,Polyg,Paper,Query Planner,Topic,RELATED_TO
+19,Polyg,Paper,Execution Engine,Topic,RELATED_TO
+20,Structured-Graphrag,Topic,Soccer Data,Topic,COVERS
+20,Structured-Graphrag,Topic,Zahra Sepasdar,Author,AUTHORED
+20,Structured-Graphrag,Topic,Sushant Gautam,Author,AUTHORED
+20,Structured-Graphrag,Topic,Cise Midoglu,Author,AUTHORED
+20,Structured-Graphrag,Topic,Michael A. Riegler,Author,AUTHORED
+20,Structured-Graphrag,Topic,Pål Halvorsen,Author,AUTHORED
+21,Ket-Rag,Topic,Graph-Rag,Topic,RELATED_TO
+21,Ket-Rag,Topic,Biomedicine,Topic,RELATED_TO
+21,Ket-Rag,Topic,Law,Topic,RELATED_TO
+21,Ket-Rag,Topic,Political Science,Topic,RELATED_TO
+21,Ket-Rag,Topic,Yiqian Huang,Author,AUTHORED
+21,Ket-Rag,Topic,Shiqi Zhang,Author,AUTHORED
+21,Ket-Rag,Topic,Xiaokui Xiao,Author,AUTHORED
+22,Hybridrag,Topic,Knowledge Graphs,Topic,INCLUDES
+22,Hybridrag,Topic,Vectorrag,Topic,INCLUDES
+22,Hybridrag,Topic,Q&A Systems,Topic,RELATED_TO
+22,Hybridrag,Topic,Financial Documents,Topic,RELATED_TO
+22,Bhaskarjit Sarmah,Author,Hybridrag,Topic,AUTHORED
+22,Benika Hall,Author,Hybridrag,Topic,AUTHORED
+22,Rohan Rao,Author,Hybridrag,Topic,AUTHORED
+22,Sunil Patel,Author,Hybridrag,Topic,AUTHORED
+22,Stefano Pasquali,Author,Hybridrag,Topic,AUTHORED
+22,Dhagash Mehta,Author,Hybridrag,Topic,AUTHORED
+22,Earnings Call Transcripts,Topic,Experiments,Topic,RELATED_TO
+22,Hybridrag,Topic,Retrieval Accuracy,Topic,RELATED_TO
+22,Hybridrag,Topic,Answer Generation,Topic,RELATED_TO
+23,Huixiangdou2,Paper,Huanjun Kong,Author,AUTHORED
+23,Huixiangdou2,Paper,Zhefan Wang,Author,AUTHORED
+23,Huixiangdou2,Paper,Chenyang Wang,Author,AUTHORED
+23,Huixiangdou2,Paper,Zhe Ma,Author,AUTHORED
+23,Huixiangdou2,Paper,Nanqing Dong,Author,AUTHORED
+23,Huixiangdou2,Paper,Graphrag,Topic,COVERS
+23,Huixiangdou2,Paper,Large Language Models,Topic,COVERS
+23,Huixiangdou2,Paper,Dual-Level Retrieval,Topic,COVERS
+23,Huixiangdou2,Paper,Logic-Based Retrieval,Topic,COVERS
+23,Huixiangdou2,Paper,Fuzzy Matching,Topic,COVERS
+23,Huixiangdou2,Paper,Structured Reasoning,Topic,COVERS
+23,Huixiangdou2,Paper,Multi-Stage Verification Mechanism,Topic,COVERS
+23,Huixiangdou2,Paper,Adaptive Retrieval,Topic,COVERS
+24,Medgraphrag,Topic,Large Language Model,Topic,RELATED_TO
+24,Medgraphrag,Topic,Graphrag,Topic,RELATED_TO
+24,Medgraphrag,Topic,Triple Graph Construction,Topic,INCLUDES
+24,Medgraphrag,Topic,U-Retrieval,Topic,INCLUDES
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Junde Wu,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Jiayuan Zhu,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Yunli Qi,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Jingkun Chen,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Min Xu,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Filippo Menolascina,Author,AUTHORED
+24,Https://Github.Com/Medicinetoken/Medical-Graph-Rag,Paper,Vicente Grau,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Yuxin Dong,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Shuo Wang,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Hongye Zheng,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Jiajing Chen,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Zhenhong Zhang,Author,AUTHORED
+25,Advanced Rag Models With Graph Structures: Optimizing Complex Knowledge Reasoning And Text Generation,Paper,Chihang Wang,Author,AUTHORED
+25,Retrieval-Augmented Generation Model,Topic,Graph Neural Network,Topic,RELATED_TO
+25,Retrieval-Augmented Generation Model,Topic,Natural Questions Dataset,Topic,RELATED_TO
+25,Retrieval-Augmented Generation Model,Topic,Knowledge Consistency,Topic,RELATED_TO
+25,Retrieval-Augmented Generation Model,Topic,Reasoning Ability,Topic,RELATED_TO
+25,Retrieval-Augmented Generation Model,Topic,Complex Knowledge Reasoning Tasks,Topic,RELATED_TO
+25,Graph Neural Network,Topic,Graph Structure Data,Topic,RELATED_TO
+25,Graph Neural Network,Topic,Multi-Dimensional Reasoning,Topic,RELATED_TO
+25,Graph Neural Network,Topic,Complex Knowledge Background Information,Topic,RELATED_TO
+25,Graph Neural Network,Topic,Practical Application Scenarios,Topic,RELATED_TO
+26,Gnn-Rag,Paper,Knowledge Graphs,Topic,COVERS
+26,Gnn-Rag,Paper,Question Answering Over Kgs,Topic,COVERS
+26,Gnn-Rag,Paper,Large Language Models,Topic,COVERS
+26,Gnn-Rag,Paper,Graph Neural Networks,Topic,COVERS
+26,Gnn-Rag,Paper,Webqsp,Topic,RELATED_TO
+26,Gnn-Rag,Paper,Cwq,Topic,RELATED_TO
+26,Gnn-Rag,Paper,Gpt-4,Topic,RELATED_TO
+27,Triple Context Restoration And Query-Driven Feedback,Topic,Knowledge Graph-Augmented Large Language Models,Topic,COVERS
+27,Manzong Huang,Author,Triple Context Restoration And Query-Driven Feedback,Topic,AUTHORED
+27,Chenyang Bu,Author,Triple Context Restoration And Query-Driven Feedback,Topic,AUTHORED
+27,Yi He,Author,Triple Context Restoration And Query-Driven Feedback,Topic,AUTHORED
+27,Xindong Wu,Author,Triple Context Restoration And Query-Driven Feedback,Topic,AUTHORED
+27,Triple Context Restoration And Query-Driven Feedback,Topic,Graphrag,Topic,RELATED_TO
+27,Triple Context Restoration And Query-Driven Feedback,Topic,Five Benchmark Question-Answering Datasets,Topic,INCLUDES
+27,Triple Context Restoration And Query-Driven Feedback,Topic,29.1% Improvement In Exact Match,Topic,INCLUDES
+27,Triple Context Restoration And Query-Driven Feedback,Topic,15.5% Improvement In F1,Topic,INCLUDES
+28,Cdf-Rag,Topic,Retrieval-Augmented Generation,Topic,COVERS
+28,Cdf-Rag,Topic,Elahe Khatibi,Author,AUTHORED
+28,Cdf-Rag,Topic,Ziyu Wang,Author,AUTHORED
+28,Cdf-Rag,Topic,Amir M. Rahmani,Author,AUTHORED
+29,Rag-Kg-Il,Paper,Hong Qing Yu,Author,AUTHORED
+29,Rag-Kg-Il,Paper,Frank Mcquade,Author,AUTHORED
+29,Rag-Kg-Il,Paper,Large Language Models,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Retrieval-Augmented Generation,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Knowledge Graphs,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Incremental Learning,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Multi-Agent Architecture,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Hallucination,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Reasoning,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Health-Related Queries,Topic,INCLUDES
+29,Rag-Kg-Il,Paper,Gpt-4O,Topic,RELATED_TO
+29,Rag-Kg-Il,Paper,Rag-Only Baseline,Topic,RELATED_TO
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Hang Luo,Author,AUTHORED
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Jian Zhang,Author,AUTHORED
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Chujun Li,Author,AUTHORED
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Graph Retrieval-Augmented Generation,Topic,INCLUDES
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Knowledge Graphs,Topic,INCLUDES
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Causal Reasoning,Topic,INCLUDES
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Large Language Models,Topic,INCLUDES
+30,Causal Graphs Meet Thoughts: Enhancing Complex Reasoning In Graph-Augmented Llms,Paper,Medical Question-Answering,Topic,INCLUDES
+31,Drug Discovery,Topic,Public Health,Topic,COVERS
+31,Target Identification,Topic,Protein-Protein Interactions,Topic,RELATED_TO
+31,Large Language Models,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+31,User Study,Topic,Drug Discovery,Topic,INCLUDES
+31,Grappi,Paper,Target Identification,Topic,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Naive Retrieval-Augmented Generation,Topic,RELATED_TO
+32,Graph Retrieval-Augmented Generation,Topic,Yuntong Hu,Author,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Zhihan Lei,Author,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Zheng Zhang,Author,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Bo Pan,Author,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Chen Ling,Author,AUTHORED
+32,Graph Retrieval-Augmented Generation,Topic,Liang Zhao,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Zulun Zhu,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Tiancheng Huang,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Kai Wang,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Junda Ye,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Xinghe Chen,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Siqiang Luo,Author,AUTHORED
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Retrieval-Augmented Generation,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Large Language Models,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Hallucination Problem,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Structured Knowledge,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Graph Learning,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Database Systems,Topic,COVERS
+33,Graph-Based Approaches And Functionalities In Retrieval-Augmented Generation: A Comprehensive Survey,Paper,Natural Language Processing,Topic,COVERS
+34,Trace,Topic,Retrieval-Augmented Generation,Topic,COVERS
+34,Trace,Topic,Multi-Hop Question Answering,Topic,COVERS
+34,Trace,Topic,Knowledge Graph,Topic,INCLUDES
+34,Trace,Topic,Autoregressive Reasoning Chain Constructor,Topic,INCLUDES
+34,Jinyuan Fang,Author,Trace,Topic,AUTHORED
+34,Zaiqiao Meng,Author,Trace,Topic,AUTHORED
+34,Craig Macdonald,Author,Trace,Topic,AUTHORED
+34,Three Multi-Hop Qa Datasets,Topic,14.03% Performance Improvement,Topic,RELATED_TO
+35,Hm-Rag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+35,Hm-Rag,Topic,Large Language Models,Topic,RELATED_TO
+35,Hm-Rag,Topic,Decomposition Agent,Topic,INCLUDES
+35,Hm-Rag,Topic,Multi-Source Retrieval Agents,Topic,INCLUDES
+35,Hm-Rag,Topic,Decision Agent,Topic,INCLUDES
+35,Hm-Rag,Topic,Scienceqa,Topic,RELATED_TO
+35,Hm-Rag,Topic,Crisismmd,Topic,RELATED_TO
+35,Hm-Rag,Topic,Https://Github.Com/Ocean-Luna/Hmrag,Paper,COVERS
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Pei Liu,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Xin Liu,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Ruoyu Yao,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Junming Liu,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Siyuan Meng,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Ding Wang,Author,AUTHORED
+35,Https://Github.Com/Ocean-Luna/Hmrag,Paper,Jun Ma,Author,AUTHORED
+36,Cot-Rag,Topic,Feiyang Li,Author,AUTHORED
+36,Cot-Rag,Topic,Peng Fang,Author,AUTHORED
+36,Cot-Rag,Topic,Zhan Shi,Author,AUTHORED
+36,Cot-Rag,Topic,Arijit Khan,Author,AUTHORED
+36,Cot-Rag,Topic,Fang Wang,Author,AUTHORED
+36,Cot-Rag,Topic,Dan Feng,Author,AUTHORED
+36,Cot-Rag,Topic,Weihao Wang,Author,AUTHORED
+36,Cot-Rag,Topic,Xin Zhang,Author,AUTHORED
+36,Cot-Rag,Topic,Yongjian Cui,Author,AUTHORED
+36,Cot-Rag,Topic,Knowledge Graph-Driven Cot Generation,Topic,INCLUDES
+36,Cot-Rag,Topic,Learnable Knowledge Case-Aware Rag,Topic,INCLUDES
+36,Cot-Rag,Topic,Pseudo-Program Prompting Execution,Topic,INCLUDES
+36,Cot-Rag,Topic,Large Language Models,Topic,RELATED_TO
+36,Cot-Rag,Topic,Reasoning Chains,Topic,RELATED_TO
+36,Cot-Rag,Topic,Reasoning Tasks,Topic,RELATED_TO
+36,Cot-Rag,Topic,Public Datasets,Topic,RELATED_TO
+36,Cot-Rag,Topic,Domain-Specific Datasets,Topic,RELATED_TO
+36,Cot-Rag,Topic,Accuracy Improvement,Topic,RELATED_TO
+36,Cot-Rag,Topic,Reasoning Problems,Topic,RELATED_TO
+37,Large Language Models,Topic,Knowledge Graph-Based Retrieval-Augmented Generation,Topic,RELATED_TO
+37,Knowledge Graph-Based Retrieval-Augmented Generation,Topic,Subgraphrag,Topic,COVERS
+37,Subgraphrag,Topic,Llama3.1-8B-Instruct,Topic,RELATED_TO
+37,Subgraphrag,Topic,Gpt-4O,Topic,RELATED_TO
+37,Subgraphrag,Topic,Webqsp,Topic,RELATED_TO
+37,Subgraphrag,Topic,Cwq,Topic,RELATED_TO
+37,Mufei Li,Author,Subgraphrag,Topic,AUTHORED
+37,Siqi Miao,Author,Subgraphrag,Topic,AUTHORED
+37,Pan Li,Author,Subgraphrag,Topic,AUTHORED
+38,Retrieval-Augmented Generation,Topic,Causalrag,Topic,COVERS
+38,Causalrag,Topic,Natural Language Processing,Topic,RELATED_TO
+38,Causalrag,Topic,Large Language Models,Topic,RELATED_TO
+38,Causalrag,Topic,Nengbo Wang,Author,AUTHORED
+38,Causalrag,Topic,Xiaotian Han,Author,AUTHORED
+38,Causalrag,Topic,Jagdip Singh,Author,AUTHORED
+38,Causalrag,Topic,Jing Ma,Author,AUTHORED
+38,Causalrag,Topic,Vipin Chaudhary,Author,AUTHORED
+39,Large Language Models,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+39,Retrieval-Augmented Generation,Topic,Coggrag,Topic,COVERS
+39,Coggrag,Topic,Knowledge Graph Question Answering,Topic,INCLUDES
+39,Coggrag,Topic,Yao Cheng,Author,AUTHORED
+39,Coggrag,Topic,Yibo Zhao,Author,AUTHORED
+39,Coggrag,Topic,Jiapeng Zhu,Author,AUTHORED
+39,Coggrag,Topic,Yao Liu,Author,AUTHORED
+39,Coggrag,Topic,Xing Sun,Author,AUTHORED
+39,Coggrag,Topic,Xiang Li,Author,AUTHORED
+40,Adaptive Medical Graph-Rag,Paper,Large Language Models,Topic,COVERS
+40,Adaptive Medical Graph-Rag,Paper,Medqa,Topic,INCLUDES
+40,Adaptive Medical Graph-Rag,Paper,Medmcqa,Topic,INCLUDES
+40,Adaptive Medical Graph-Rag,Paper,Pubmed,Topic,RELATED_TO
+40,Adaptive Medical Graph-Rag,Paper,Wikisearch,Topic,RELATED_TO
+41,Hypa-Rag,Topic,Large Language Models,Topic,RELATED_TO
+41,Hypa-Rag,Topic,Nyc Local Law 144,Topic,RELATED_TO
+41,Hypa-Rag,Topic,Rishi Kalra,Author,AUTHORED
+41,Hypa-Rag,Topic,Zekun Wu,Author,AUTHORED
+41,Hypa-Rag,Topic,Ayesha Gulley,Author,AUTHORED
+41,Hypa-Rag,Topic,Airlie Hilliard,Author,AUTHORED
+41,Hypa-Rag,Topic,Xin Guan,Author,AUTHORED
+41,Hypa-Rag,Topic,Adriano Koshiyama,Author,AUTHORED
+41,Hypa-Rag,Topic,Philip Treleaven,Author,AUTHORED
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Large Language Models (Llms),Topic,RELATED_TO
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Knowledge Graphs (Kgs),Topic,RELATED_TO
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Question Answering (Qa),Topic,RELATED_TO
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Jasper Linders,Author,AUTHORED
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Jakub M. Tomczak,Author,AUTHORED
+42,Knowledge Graph-Extended Retrieval Augmented Generation (Kg-Rag),Topic,Metaqa Benchmark,Topic,RELATED_TO
+43,Mixture-Of-Pageranks,Topic,Long-Context Llms,Topic,RELATED_TO
+43,Mixture-Of-Pageranks,Topic,Rag,Topic,RELATED_TO
+43,Mixture-Of-Pageranks,Topic,Pagerank,Topic,RELATED_TO
+43,Mixture-Of-Pageranks,Topic,Sparse Matrices,Topic,RELATED_TO
+43,Nicholas Alonso,Author,Mixture-Of-Pageranks,Topic,AUTHORED
+43,Beren Millidge,Author,Mixture-Of-Pageranks,Topic,AUTHORED
+43,Mixture-Of-Pageranks,Topic,Compute Efficiency,Topic,RELATED_TO
+43,Mixture-Of-Pageranks,Topic,Benchmark Tasks,Topic,RELATED_TO
+44,Retrieval-Augmented Generation (Rag),Topic,Large Language Models (Llms),Topic,RELATED_TO
+44,Think-On-Graph 2.0 (Tog-2),Topic,Knowledge Graphs (Kgs),Topic,INCLUDES
+44,Think-On-Graph 2.0 (Tog-2),Topic,Large Language Models (Llms),Topic,RELATED_TO
+44,Think-On-Graph 2.0 (Tog-2),Topic,Gpt-3.5,Topic,RELATED_TO
+44,Think-On-Graph 2.0 (Tog-2),Topic,Llama-2-13B,Topic,RELATED_TO
+44,Think-On-Graph 2.0 (Tog-2),Topic,Shengjie Ma,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Chengjin Xu,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Xuhui Jiang,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Muzhi Li,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Huaren Qu,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Cehao Yang,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Jiaxin Mao,Author,AUTHORED
+44,Think-On-Graph 2.0 (Tog-2),Topic,Jian Guo,Author,AUTHORED
+45,G-Retriever,Topic,Graph Question Answering (Graphqa),Topic,COVERS
+45,G-Retriever,Topic,Xiaoxin He,Author,AUTHORED
+45,G-Retriever,Topic,Yijun Tian,Author,AUTHORED
+45,G-Retriever,Topic,Yifei Sun,Author,AUTHORED
+45,G-Retriever,Topic,Nitesh V. Chawla,Author,AUTHORED
+45,G-Retriever,Topic,Thomas Laurent,Author,AUTHORED
+45,G-Retriever,Topic,Yann Lecun,Author,AUTHORED
+45,G-Retriever,Topic,Xavier Bresson,Author,AUTHORED
+45,G-Retriever,Topic,Bryan Hooi,Author,AUTHORED
+46,Large Language Models,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+46,Retrieval-Augmented Generation,Topic,Edge-Assisted And Collaborative Rag,Paper,COVERS
+46,Small Language Models,Topic,Edge-Assisted And Collaborative Rag,Paper,RELATED_TO
+47,Knowledge Graph-Retrieval Augmented Generation,Paper,Kg-Rag,Topic,COVERS
+47,Knowledge Graph-Retrieval Augmented Generation,Paper,Diego Sanmartin,Author,AUTHORED
+48,Frag,Topic,Zengyi Gao,Author,AUTHORED
+48,Frag,Topic,Yukun Cao,Author,AUTHORED
+48,Frag,Topic,Hairu Wang,Author,AUTHORED
+48,Frag,Topic,Ao Ke,Author,AUTHORED
+48,Frag,Topic,Yuan Feng,Author,AUTHORED
+48,Frag,Topic,Xike Xie,Author,AUTHORED
+48,Frag,Topic,S Kevin Zhou,Author,AUTHORED
+49,Hoprag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+49,Hoprag,Topic,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,COVERS
+49,Hao Liu,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+49,Zhengren Wang,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+49,Xi Chen,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+49,Zhiyu Li,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+49,Feiyu Xiong,Author,Https://Github.Com/Liu-Hao-2002002/Hoprag,Paper,AUTHORED
+49,Qinhan Yu,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+49,Wentao Zhang,Author,Https://Github.Com/Liu-Hao-2002/Hoprag,Paper,AUTHORED
+50,Large Language Models,Topic,Artificial General Intelligence,Topic,RELATED_TO
+50,Weknow-Rag,Paper,Large Language Models,Topic,COVERS
+50,Weknow-Rag,Paper,Artificial General Intelligence,Topic,COVERS
+51,Eraser4Rag,Paper,Retrieval-Augmented Generation (Rag),Topic,COVERS
+52,Plan*Rag,Topic,Retrieval-Augmented Generation,Topic,COVERS
+52,Plan*Rag,Topic,React,Topic,RELATED_TO
+52,Plan*Rag,Topic,Rq-Rag,Topic,RELATED_TO
+52,Plan*Rag,Topic,Self-Rag,Topic,RELATED_TO
+52,Prakhar Verma,Author,Plan*Rag,Topic,AUTHORED
+52,Sukruta Prakash Midigeshi,Author,Plan*Rag,Topic,AUTHORED
+52,Gaurav Sinha,Author,Plan*Rag,Topic,AUTHORED
+52,Arno Solin,Author,Plan*Rag,Topic,AUTHORED
+52,Nagarajan Natarajan,Author,Plan*Rag,Topic,AUTHORED
+52,Amit Sharma,Author,Plan*Rag,Topic,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Xiangrong Zhu,Author,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Yuexiang Xie,Author,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Yi Liu,Author,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Yaliang Li,Author,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Wei Hu,Author,AUTHORED
+53,Knowledge Graph-Guided Retrieval Augmented Generation,Paper,Hotpotqa,Topic,COVERS
+54,A Study On The Implementation Method Of An Agent-Based Advanced Rag System Using Graph,Paper,Retrieval-Augmented Generation (Rag) Models,Topic,COVERS
+54,A Study On The Implementation Method Of An Agent-Based Advanced Rag System Using Graph,Paper,Graph Technology,Topic,COVERS
+54,A Study On The Implementation Method Of An Agent-Based Advanced Rag System Using Graph,Paper,Langgraph,Topic,COVERS
+55,Medrag,Paper,Xuejiao Zhao,Author,AUTHORED
+55,Medrag,Paper,Siyan Liu,Author,AUTHORED
+55,Medrag,Paper,Su-Yin Yang,Author,AUTHORED
+55,Medrag,Paper,Chunyan Miao,Author,AUTHORED
+55,Medrag,Paper,Electronic Health Records,Topic,INCLUDES
+55,Medrag,Paper,Knowledge Graph,Topic,INCLUDES
+55,Medrag,Paper,Diagnostic Accuracy,Topic,INCLUDES
+55,Medrag,Paper,Misdiagnosis,Topic,INCLUDES
+55,Medrag,Paper,Decision Support,Topic,INCLUDES
+55,Medrag,Paper,Ddxplus,Topic,INCLUDES
+55,Medrag,Paper,Cpdd,Topic,INCLUDES
+55,Medrag,Paper,Tan Tock Seng Hospital,Topic,INCLUDES
+56,Rulerag,Paper,Ruleqa,Topic,INCLUDES
+56,Rulerag,Paper,Knowledge Graphs,Topic,RELATED_TO
+56,Rulerag,Paper,Retrieval-Augmented Generation,Topic,RELATED_TO
+56,Rulerag,Paper,Rulerag-Icl,Topic,RELATED_TO
+56,Rulerag,Paper,Rulerag-Ft,Topic,RELATED_TO
+57,Atomr,Topic,Large Language Models,Topic,RELATED_TO
+57,Atomr,Topic,Blendqa,Topic,RELATED_TO
+57,Amy Xin,Author,Atomr,Topic,AUTHORED
+57,Jinxin Liu,Author,Atomr,Topic,AUTHORED
+57,Zijun Yao,Author,Atomr,Topic,AUTHORED
+57,Zhicheng Lee,Author,Atomr,Topic,AUTHORED
+57,Shulin Cao,Author,Atomr,Topic,AUTHORED
+57,Lei Hou,Author,Atomr,Topic,AUTHORED
+57,Juanzi Li,Author,Atomr,Topic,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Yuta Ojima,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Hiroki Sakaji,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Tadashi Nakamura,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Hiroaki Sakata,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Kazuya Seki,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Yuu Teshigawara,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Masami Yamashita,Author,AUTHORED
+58,Knowledge Management For Automobile Failure Analysis Using Graph Rag,Paper,Kazuhiro Aoyama,Author,AUTHORED
+59,Retrieval-Augmented Generation,Topic,Large Language Models,Topic,RELATED_TO
+59,Pseudo-Knowledge Graph,Topic,Retrieval-Augmented Generation,Topic,COVERS
+59,Yuxin Yang,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+59,Haoyang Wu,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+59,Tao Wang,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+59,Jia Yang,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+59,Hao Ma,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+59,Guojie Luo,Author,Pseudo-Knowledge Graph,Topic,AUTHORED
+60,Graph-Based Retrieval-Augmented Generation,Topic,Trex,Topic,COVERS
+60,Trex,Topic,Joyce Cahoon,Author,AUTHORED
+60,Trex,Topic,Prerna Singh,Author,AUTHORED
+60,Trex,Topic,Nick Litombe,Author,AUTHORED
+60,Trex,Topic,Jonathan Larson,Author,AUTHORED
+60,Trex,Topic,Ha Trinh,Author,AUTHORED
+60,Trex,Topic,Yiwen Zhu,Author,AUTHORED
+60,Trex,Topic,Andreas Mueller,Author,AUTHORED
+60,Trex,Topic,Fotis Psallidas,Author,AUTHORED
+60,Trex,Topic,Carlo Curino,Author,AUTHORED
+61,Large Language Models,Topic,Neuro-Symbolic Approach,Topic,RELATED_TO
+61,Neuro-Symbolic Approach,Topic,Knowledge Graph-Based Rag,Topic,INCLUDES
+61,Knowledge Graph-Based Rag,Topic,Symbolic Validator,Topic,INCLUDES
+61,Hierarchical Planning For Complex Tasks With Knowledge Graph-Rag And Symbolic Verification,Paper,Cristina Cornelio,Author,AUTHORED
+61,Hierarchical Planning For Complex Tasks With Knowledge Graph-Rag And Symbolic Verification,Paper,Flavio Petruzzellis,Author,AUTHORED
+61,Hierarchical Planning For Complex Tasks With Knowledge Graph-Rag And Symbolic Verification,Paper,Pietro Lio,Author,AUTHORED
+62,Failure Mode And Effects Analysis (Fmea),Topic,Large Language Models (Llms),Topic,RELATED_TO
+62,Large Language Models (Llms),Topic,Retrieval-Augmented Generation (Rag),Topic,RELATED_TO
+62,Retrieval-Augmented Generation (Rag),Topic,Knowledge Graph (Kg),Topic,RELATED_TO
+62,Knowledge Graph (Kg),Topic,Set-Theoretic Standardization,Topic,RELATED_TO
+62,Set-Theoretic Standardization,Topic,Fmea-Kg,Topic,RELATED_TO
+62,Fmea-Kg,Topic,Rag Framework,Topic,RELATED_TO
+62,Rag Framework,Topic,Lukas Bahr,Author,AUTHORED
+62,Rag Framework,Topic,Christoph Wehner,Author,AUTHORED
+62,Rag Framework,Topic,Judith Wewerka,Author,AUTHORED
+62,Rag Framework,Topic,José Bittencourt,Author,AUTHORED
+62,Rag Framework,Topic,Ute Schmid,Author,AUTHORED
+62,Rag Framework,Topic,Rüdiger Daub,Author,AUTHORED
+63,Attributed Community-Based Hierarchical Rag,Paper,Retrieval-Augmented Generation,Topic,COVERS
+64,Large Language Models,Topic,Education,Topic,RELATED_TO
+64,Large Language Models,Topic,Finance,Topic,RELATED_TO
+64,Large Language Models,Topic,Medicine,Topic,RELATED_TO
+64,Hyper-Rag,Paper,Large Language Models,Topic,COVERS
+64,Hyper-Rag,Paper,Education,Topic,INCLUDES
+64,Hyper-Rag,Paper,Finance,Topic,INCLUDES
+64,Hyper-Rag,Paper,Medicine,Topic,INCLUDES
+64,Hyper-Rag,Paper,Yifan Feng,Author,AUTHORED
+64,Hyper-Rag,Paper,Hao Hu,Author,AUTHORED
+64,Hyper-Rag,Paper,Xingliang Hou,Author,AUTHORED
+64,Hyper-Rag,Paper,Shiquan Liu,Author,AUTHORED
+64,Hyper-Rag,Paper,Shihui Ying,Author,AUTHORED
+64,Hyper-Rag,Paper,Shaoyi Du,Author,AUTHORED
+64,Hyper-Rag,Paper,Han Hu,Author,AUTHORED
+64,Hyper-Rag,Paper,Yue Gao,Author,AUTHORED
+65,Graph Rag-Tool Fusion,Topic,Toollinkos,Topic,COVERS
+65,Graph Rag-Tool Fusion,Topic,Toolsandbox,Topic,COVERS
+65,Toollinkos,Topic,573 Fictional Tools,Topic,INCLUDES
+65,Toollinkos,Topic,15 Industries,Topic,INCLUDES
+65,Toollinkos,Topic,6.3 Tool Dependencies,Topic,INCLUDES
+65,Naive Rag,Topic,Graph Rag-Tool Fusion,Topic,RELATED_TO
+65,Vector Database,Topic,Get Stock Price Api,Topic,RELATED_TO
+65,Get Stock Price Api,Topic,Stock Ticker Parameter,Topic,RELATED_TO
+65,Stock Ticker Parameter,Topic,Get Stock Ticker Api,Topic,RELATED_TO
+65,Get Stock Ticker Api,Topic,Os-Level Internet Connectivity Tools,Topic,RELATED_TO
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Xujie Yuan,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Yongxu Liu,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Shimin Di,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Shiwen Wu,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Libin Zheng,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Rui Meng,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Lei Chen,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Xiaofang Zhou,Author,AUTHORED
+66,A Pilot Empirical Study On When And How To Use Knowledge Graphs As Retrieval Augmented Generation,Paper,Jian Yin,Author,AUTHORED
+67,Graph Retrieval Augmented Generation,Topic,Fast Think-On-Graph,Topic,RELATED_TO
+67,Fast Think-On-Graph,Topic,Knowledge Graph,Topic,COVERS
+67,Fast Think-On-Graph,Topic,Large-Scale Language Models,Topic,COVERS
+67,Fast Think-On-Graph,Topic,Community Detection,Topic,INCLUDES
+67,Fast Think-On-Graph,Topic,Community Pruning,Topic,INCLUDES
+67,Fast Think-On-Graph,Topic,Community-To-Text Methods,Topic,INCLUDES
+67,Fast Think-On-Graph,Topic,Experimental Results,Topic,AUTHORED
+67,Xujian Liang,Author,Fast Think-On-Graph,Topic,AUTHORED
+67,Zhaoquan Gu,Author,Fast Think-On-Graph,Topic,AUTHORED
+68,Communitykg-Rag,Topic,Large Language Models,Topic,RELATED_TO
+68,Communitykg-Rag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+68,Communitykg-Rag,Topic,Knowledge Graphs,Topic,RELATED_TO
+68,Communitykg-Rag,Topic,Fact-Checking,Topic,RELATED_TO
+68,Rong-Ching Chang,Author,Communitykg-Rag,Topic,AUTHORED
+68,Jiawei Zhang,Author,Communitykg-Rag,Topic,AUTHORED
+69,Kg-Retriever,Topic,Retrieval-Augmented Generation,Topic,COVERS
+69,Kg-Retriever,Topic,Knowledge Graph,Topic,COVERS
+69,Kg-Retriever,Topic,Multi-Hop Question Answering,Topic,COVERS
+69,Kg-Retriever,Topic,Cross-Document Retrieval,Topic,COVERS
+69,Kg-Retriever,Topic,Information Fragmentation,Topic,COVERS
+69,Kg-Retriever,Topic,Qa Datasets,Topic,COVERS
+69,Weijie Chen,Author,Kg-Retriever,Topic,AUTHORED
+69,Ting Bai,Author,Kg-Retriever,Topic,AUTHORED
+69,Jinbo Su,Author,Kg-Retriever,Topic,AUTHORED
+69,Jian Luan,Author,Kg-Retriever,Topic,AUTHORED
+69,Wei Liu,Author,Kg-Retriever,Topic,AUTHORED
+69,Chuan Shi,Author,Kg-Retriever,Topic,AUTHORED
+70,Retrieval From Graph Data,Topic,Large Language Models,Topic,RELATED_TO
+70,Large Language Models,Topic,Graphrag System,Topic,RELATED_TO
+70,Knowledge Graphs,Topic,Knowledge Base Question Answering,Topic,RELATED_TO
+70,Langchain,Topic,Llamaindex,Topic,RELATED_TO
+70,Wikidata,Topic,Freebase,Topic,RELATED_TO
+70,Property Graph Views,Topic,Cypher,Topic,RELATED_TO
+70,Cypherbench,Paper,Wikidata,Topic,COVERS
+71,Large Language Models,Topic,Pennylane,Topic,RELATED_TO
+71,Pennylane Dataset,Topic,Pennylane,Topic,COVERS
+71,Graphrag,Topic,Gpt-4O Mini,Topic,RELATED_TO
+71,Abdul Basit,Author,Pennylane Dataset,Topic,AUTHORED
+71,Nouhaila Innan,Author,Pennylane Dataset,Topic,AUTHORED
+71,Haider Asif,Author,Pennylane Dataset,Topic,AUTHORED
+71,Minghao Shao,Author,Pennylane Dataset,Topic,AUTHORED
+71,Muhammad Kashif,Author,Pennylane Dataset,Topic,AUTHORED
+71,Alberto Marchisio,Author,Pennylane Dataset,Topic,AUTHORED
+71,Muhammad Shafique,Author,Pennylane Dataset,Topic,AUTHORED
+72,Distill-Synthkg,Topic,Synthkg,Topic,COVERS
+72,Distill-Synthkg,Topic,Prafulla Kumar Choubey,Author,AUTHORED
+72,Distill-Synthkg,Topic,Xin Su,Author,AUTHORED
+72,Distill-Synthkg,Topic,Man Luo,Author,AUTHORED
+72,Distill-Synthkg,Topic,Xiangyu Peng,Author,AUTHORED
+72,Distill-Synthkg,Topic,Caiming Xiong,Author,AUTHORED
+72,Distill-Synthkg,Topic,Tiep Le,Author,AUTHORED
+72,Distill-Synthkg,Topic,Shachar Rosenman,Author,AUTHORED
+72,Distill-Synthkg,Topic,Vasudev Lal,Author,AUTHORED
+72,Distill-Synthkg,Topic,Phil Mui,Author,AUTHORED
+72,Distill-Synthkg,Topic,Ricky Ho,Author,AUTHORED
+72,Distill-Synthkg,Topic,Phillip Howard,Author,AUTHORED
+72,Distill-Synthkg,Topic,Chien-Sheng Wu,Author,AUTHORED
+73,Kare,Paper,Clinical Decision Support,Topic,COVERS
+73,Kare,Paper,Large Language Models,Topic,RELATED_TO
+73,Kare,Paper,Pengcheng Jiang,Author,AUTHORED
+73,Kare,Paper,Cao Xiao,Author,AUTHORED
+73,Kare,Paper,Minhao Jiang,Author,AUTHORED
+73,Kare,Paper,Parminder Bhatia,Author,AUTHORED
+73,Kare,Paper,Taha Kass-Hout,Author,AUTHORED
+73,Kare,Paper,Jimeng Sun,Author,AUTHORED
+73,Kare,Paper,Jiawei Han,Author,AUTHORED
+74,Tobugraph,Topic,Retrieval-Augmented Generation (Rag),Topic,RELATED_TO
+74,Tobugraph,Topic,Tobu,Topic,RELATED_TO
+74,Savini Kashmira,Author,Tobugraph,Topic,AUTHORED
+74,Jayanaka L. Dantanarayana,Author,Tobugraph,Topic,AUTHORED
+74,Joshua Brodsky,Author,Tobugraph,Topic,AUTHORED
+74,Ashish Mahendra,Author,Tobugraph,Topic,AUTHORED
+74,Yiping Kang,Author,Tobugraph,Topic,AUTHORED
+74,Krisztian Flautner,Author,Tobugraph,Topic,AUTHORED
+74,Lingjia Tang,Author,Tobugraph,Topic,AUTHORED
+74,Jason Mars,Author,Tobugraph,Topic,AUTHORED
+75,Retrieval-Augmented Generation,Topic,Large Language Models,Topic,RELATED_TO
+75,Retrieval-Augmented Generation,Topic,External Databases,Topic,RELATED_TO
+75,Graph-Based Rag,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+75,Pathrag,Paper,Boyu Chen,Author,AUTHORED
+75,Pathrag,Paper,Zirui Guo,Author,AUTHORED
+75,Pathrag,Paper,Zidan Yang,Author,AUTHORED
+75,Pathrag,Paper,Yuluo Chen,Author,AUTHORED
+75,Pathrag,Paper,Junze Chen,Author,AUTHORED
+75,Pathrag,Paper,Zhenghao Liu,Author,AUTHORED
+75,Pathrag,Paper,Chuan Shi,Author,AUTHORED
+75,Pathrag,Paper,Cheng Yang,Author,AUTHORED
+76,Biomedical Question Answering Via Multi-Level Summarization On A Local Knowledge Graph,Paper,Lingxiao Guan,Author,AUTHORED
+76,Biomedical Question Answering Via Multi-Level Summarization On A Local Knowledge Graph,Paper,Yuanhao Huang,Author,AUTHORED
+76,Biomedical Question Answering Via Multi-Level Summarization On A Local Knowledge Graph,Paper,Jie Liu,Author,AUTHORED
+76,Biomedical Question Answering Via Multi-Level Summarization On A Local Knowledge Graph,Paper,Retrieval Augmented Generation,Topic,INCLUDES
+76,Biomedical Question Answering Via Multi-Level Summarization On A Local Knowledge Graph,Paper,Biomedical Tasks,Topic,INCLUDES
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Yuan Sui,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Yufei He,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Nian Liu,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Xiaoxin He,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Kun Wang,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Bryan Hooi,Author,AUTHORED
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Large Language Models,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Knowledge Graphs,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Factuality,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Reasoning,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Beam Search,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Path-Rag Module,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Computational Costs,Topic,COVERS
+77,Fidelis: Faithful Reasoning In Large Language Model For Knowledge Graph Question Answering,Paper,Interpretability,Topic,COVERS
+78,Agentic Reasoning,Topic,Large Language Model (Llm),Topic,RELATED_TO
+78,Agentic Reasoning,Topic,Mind Map Agent,Topic,INCLUDES
+78,Junde Wu,Author,Https://Github.Com/Theworldofagents/Agentic-Reasoning,Paper,AUTHORED
+78,Jiayuan Zhu,Author,Https://Github.Com/Theworldofagents/Agentic-Reasoning,Paper,AUTHORED
+78,Yuyuan Liu,Author,Https://Github.Com/Theworldofagents/Agentic-Reasoning,Paper,AUTHORED
+79,Mag-Rag,Paper,Automated Optimization Modeling,Topic,COVERS
+79,Mag-Rag,Paper,Large Language Models,Topic,COVERS
+79,Mag-Rag,Paper,Prompt Engineering,Topic,COVERS
+79,Mag-Rag,Paper,Sensor Array Signal Processing,Topic,COVERS
+79,Mag-Rag,Paper,Retrieval-Augmented Generation,Topic,COVERS
+79,Mag-Rag,Paper,Multi-Agent Structure,Topic,COVERS
+79,Mag-Rag,Paper,Graph-Based Rag Process,Topic,COVERS
+80,Hybrid Rag System,Paper,Retrieval-Augmented Generation,Topic,COVERS
+80,Hybrid Rag System,Paper,Ye Yuan,Author,AUTHORED
+80,Hybrid Rag System,Paper,Chengwu Liu,Author,AUTHORED
+80,Hybrid Rag System,Paper,Jingyang Yuan,Author,AUTHORED
+80,Hybrid Rag System,Paper,Gongbo Sun,Author,AUTHORED
+80,Hybrid Rag System,Paper,Siqi Li,Author,AUTHORED
+80,Hybrid Rag System,Paper,Ming Zhang,Author,AUTHORED
+80,Hybrid Rag System,Paper,Crag Dataset,Topic,INCLUDES
+80,Hybrid Rag System,Paper,Meta Crag Kdd Cup 2024 Competition,Topic,INCLUDES
+80,Hybrid Rag System,Paper,Baseline Model,Topic,RELATED_TO
+81,Simgrag,Topic,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,COVERS
+81,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,Yuzheng Cai,Author,AUTHORED
+81,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,Zhenyue Guo,Author,AUTHORED
+81,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,Yiwen Pei,Author,AUTHORED
+81,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,Wanrui Bian,Author,AUTHORED
+81,Knowledge Graphs Driven Retrieval-Augmented Generation,Paper,Weiguo Zheng,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Yingli Zhou,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Yaodong Su,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Youran Sun,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Shu Wang,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Taotao Wang,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Runyuan He,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Yongwei Zhang,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Sicong Liang,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Xilin Liu,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Yuchi Ma,Author,AUTHORED
+82,In-Depth Analysis Of Graph-Based Rag In A Unified Framework,Paper,Yixiang Fang,Author,AUTHORED
+83,Retrieval Augmented Generation (Rag),Topic,Large Language Model (Llm),Topic,RELATED_TO
+83,G-Rag,Topic,Graph Neural Networks (Gnns),Topic,RELATED_TO
+83,G-Rag,Topic,Abstract Meaning Representation Graphs,Topic,RELATED_TO
+83,G-Rag,Topic,Retrieval Augmented Generation (Rag),Topic,COVERS
+83,Palm 2,Topic,G-Rag,Topic,RELATED_TO
+83,Jialin Dong,Author,G-Rag,Topic,AUTHORED
+83,Bahare Fatemi,Author,G-Rag,Topic,AUTHORED
+83,Bryan Perozzi,Author,G-Rag,Topic,AUTHORED
+83,Lin F. Yang,Author,G-Rag,Topic,AUTHORED
+83,Anton Tsitsulin,Author,G-Rag,Topic,AUTHORED
+84,Ontologyrag,Paper,Biomedical Ontologies,Topic,COVERS
+84,Ontologyrag,Paper,Biomedical Code Mapping,Topic,COVERS
+84,Ontologyrag,Paper,Hui Feng,Author,AUTHORED
+84,Ontologyrag,Paper,Yuntzu Yin,Author,AUTHORED
+84,Ontologyrag,Paper,Emiliano Reynares,Author,AUTHORED
+84,Ontologyrag,Paper,Jay Nanavati,Author,AUTHORED
+85,Pg-Rag,Topic,Retrieval-Augmented Generation (Rag),Topic,COVERS
+85,Pg-Rag,Topic,Kgp-Llama,Topic,RELATED_TO
+85,Xun Liang,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Simin Niu,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Zhiyu Li,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Sensen Zhang,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Shichao Song,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Hanyu Wang,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Jiawei Yang,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Feiyu Xiong,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Bo Tang,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+85,Chenyang Xi,Author,Https://Github.Com/Iaar-Shanghai/Pgrag,Paper,AUTHORED
+86,Graph Rag,Paper,Material Science,Topic,COVERS
+86,Graph Rag,Paper,G-Rag,Topic,RELATED_TO
+86,G-Rag,Topic,Graph Databases,Topic,INCLUDES
+86,G-Rag,Topic,Retrieval Accuracy,Topic,RELATED_TO
+86,G-Rag,Topic,Contextual Understanding,Topic,RELATED_TO
+86,Large Language Models,Topic,Traditional Retrieval-Augmented Generation Approaches,Topic,RELATED_TO
+86,Traditional Retrieval-Augmented Generation Approaches,Topic,Outdated Information,Topic,RELATED_TO
+86,Traditional Retrieval-Augmented Generation Approaches,Topic,Hallucinations,Topic,RELATED_TO
+86,Traditional Retrieval-Augmented Generation Approaches,Topic,Limited Interpretability,Topic,RELATED_TO
+86,Traditional Retrieval-Augmented Generation Approaches,Topic,Inaccurate Retrieval,Topic,RELATED_TO
+86,Material Science Documents,Topic,External Wikipedia Knowledge Bases,Topic,RELATED_TO
+86,Agent-Based Parsing Technique,Topic,Material Science Documents,Topic,RELATED_TO
+87,Slide,Topic,Divyansh Singh,Author,AUTHORED
+87,Slide,Topic,Manuel Nunez Martinez,Author,AUTHORED
+87,Slide,Topic,Bonnie J. Dorr,Author,AUTHORED
+87,Slide,Topic,Sonja Schmer Galunder,Author,AUTHORED
+87,Slide,Topic,Graphrag,Topic,RELATED_TO
+87,Slide,Topic,English,Topic,RELATED_TO
+87,Slide,Topic,Afrikaans,Topic,RELATED_TO
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Yingjian Chen,Author,AUTHORED
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Feiyang Li,Author,AUTHORED
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Xingyu Song,Author,AUTHORED
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Tianxiao Li,Author,AUTHORED
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Issey Sukeda,Author,AUTHORED
+88,Exploring The Role Of Knowledge Graph-Based Rag In Japanese Medical Question Answering With Small-Scale Llms,Paper,Irene Li,Author,AUTHORED
+88,Large Language Models,Topic,Japanese Medical Qa,Topic,RELATED_TO
+88,Retrieval-Augmented Generation,Topic,Japanese Medical Qa,Topic,RELATED_TO
+88,Knowledge Graph,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+88,Open-Source Llms,Topic,Small-Scale Llms,Topic,RELATED_TO
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Knowledge Graph Based Retrieval-Augmented Generation (Kg-Rag),Topic,COVERS
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Large Language Model (Llm),Topic,COVERS
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Question Answering (Qa),Topic,COVERS
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Knowledge Graphs (Kgs),Topic,COVERS
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Dongzhuoran Zhou,Author,AUTHORED
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Yuqicheng Zhu,Author,AUTHORED
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Yuan He,Author,AUTHORED
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Jiaoyan Chen,Author,AUTHORED
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Evgeny Kharlamov,Author,AUTHORED
+89,Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods Under Knowledge Incompleteness,Paper,Steffen Staab,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Retrieval-Augmented Generation (Rag),Topic,RELATED_TO
+90,Knowledge Augmented Generation (Kag),Topic,Ant Group,Topic,INCLUDES
+90,Ant Group,Topic,E-Government Q&A,Topic,INCLUDES
+90,Ant Group,Topic,E-Health Q&A,Topic,INCLUDES
+90,Knowledge Augmented Generation (Kag),Topic,Lei Liang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Mengshu Sun,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zhengke Gui,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zhongshu Zhu,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zhouyu Jiang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Ling Zhong,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Yuan Qu,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Peilong Zhao,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zhongpu Bo,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Jin Yang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Huaidong Xiong,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Lin Yuan,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Jun Xu,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zaoyang Wang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Zhiqiang Zhang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Wen Zhang,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Huajun Chen,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Wenguang Chen,Author,AUTHORED
+90,Knowledge Augmented Generation (Kag),Topic,Jun Zhou,Author,AUTHORED
+91,Graphinsight,Topic,Large Language Models,Topic,COVERS
+91,Graphinsight,Topic,Yukun Cao,Author,AUTHORED
+91,Graphinsight,Topic,Shuo Han,Author,AUTHORED
+91,Graphinsight,Topic,Zengyi Gao,Author,AUTHORED
+91,Graphinsight,Topic,Zezhong Ding,Author,AUTHORED
+91,Graphinsight,Topic,Xike Xie,Author,AUTHORED
+91,Graphinsight,Topic,S. Kevin Zhou,Author,AUTHORED
+92,Graphjudger,Paper,Haoyu Huang,Author,AUTHORED
+92,Graphjudger,Paper,Chong Chen,Author,AUTHORED
+92,Graphjudger,Paper,Conghui He,Author,AUTHORED
+92,Graphjudger,Paper,Yang Li,Author,AUTHORED
+92,Graphjudger,Paper,Jiawei Jiang,Author,AUTHORED
+92,Graphjudger,Paper,Wentao Zhang,Author,AUTHORED
+92,Knowledge Graph Construction,Topic,Graphjudger,Paper,COVERS
+92,Large Language Models,Topic,Graphjudger,Paper,RELATED_TO
+92,Graphrag Systems,Topic,Knowledge Graph Construction,Topic,RELATED_TO
+92,Recommendation Systems,Topic,Knowledge Graph Construction,Topic,RELATED_TO
+92,Entity-Centric Iterative Text Denoising,Topic,Graphjudger,Paper,INCLUDES
+92,Knowledge Aware Instruction Tuning,Topic,Graphjudger,Paper,INCLUDES
+92,Graph Judgement,Topic,Graphjudger,Paper,INCLUDES
+92,Domain-Specific Documents,Topic,Graphjudger,Paper,RELATED_TO
+92,Hallucinations Phenomenon,Topic,Graphjudger,Paper,RELATED_TO
+92,General Text-Graph Pair Datasets,Topic,Graphjudger,Paper,RELATED_TO
+92,Domain-Specific Text-Graph Pair Dataset,Topic,Graphjudger,Paper,RELATED_TO
+93,Large Language Models,Topic,Retrieval-Augmented Generation (Rag) Framework,Topic,RELATED_TO
+93,Retrieval-Augmented Generation (Rag) Framework,Topic,Knowledge Graphs,Topic,RELATED_TO
+93,Multi-Objective Multi-Armed Bandit Enhanced Rag Framework,Topic,Knowledge Graphs,Topic,RELATED_TO
+93,Xiaqiang Tang,Author,Https://Github.Com/Futureeeeee/Dynamic-Rag.Git,Paper,AUTHORED
+93,Jian Li,Author,Https://Github.Com/Futureeeeee/Dynamic-Rag.Git,Paper,AUTHORED
+93,Nan Du,Author,Https://Github.Com/Futureeeeee/Dynamic-Rag.Git,Paper,AUTHORED
+93,Sihong Xie,Author,Https://Github.Com/Futureeeeee/Dynamic-Rag.Git,Paper,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Large Language Models,Topic,COVERS
+94,Are Large Language Models In-Context Graph Learners?,Paper,Graph Neural Networks,Topic,COVERS
+94,Are Large Language Models In-Context Graph Learners?,Paper,Retrieval-Augmented Generation,Topic,COVERS
+94,Are Large Language Models In-Context Graph Learners?,Paper,Jintang Li,Author,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Ruofan Wu,Author,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Yuchang Zhu,Author,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Huizhe Zhang,Author,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Liang Chen,Author,AUTHORED
+94,Are Large Language Models In-Context Graph Learners?,Paper,Zibin Zheng,Author,AUTHORED
+95,Causal Analysis Of Tweets Dataset,Topic,Knowledge Graphs,Topic,RELATED_TO
+95,Causal Analysis Of Tweets Dataset,Topic,Large Language Models,Topic,RELATED_TO
+95,Retrieval-Augmented Generation,Topic,Knowledge Graphs,Topic,RELATED_TO
+95,Retrieval-Augmented Generation,Topic,Large Language Models,Topic,RELATED_TO
+95,Gpt-3.5 Turbo,Topic,Retrieval-Augmented Generation,Topic,RELATED_TO
+95,Rahul Ravi,Author,Pragyan,Topic,AUTHORED
+95,Gouri Ginde,Author,Pragyan,Topic,AUTHORED
+95,Jon Rokne,Author,Pragyan,Topic,AUTHORED
+95,Improved Interpretability,Topic,Actionable Insights,Topic,RELATED_TO
+95,Informed Decision-Making,Topic,Improved Interpretability,Topic,RELATED_TO
+95,Quantitative Analysis,Topic,Bleu,Topic,RELATED_TO
+95,Quantitative Analysis,Topic,Cosine Similarity,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Large Language Models,Topic,INCLUDES
+96,Agentic Generative Ai,Topic,Retrieval-Augmented Generation,Topic,INCLUDES
+96,Agentic Generative Ai,Topic,Knowledge Graphs,Topic,INCLUDES
+96,Agentic Generative Ai,Topic,Vector Stores,Topic,INCLUDES
+96,Agentic Generative Ai,Topic,Legal Systems,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Research,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Recommender Systems,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Cybersecurity,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Global Security,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Proliferation Research,Topic,RELATED_TO
+96,Legal Domain,Topic,Complex Data,Topic,INCLUDES
+96,Legal Domain,Topic,Legal Documents,Topic,INCLUDES
+96,Legal Domain,Topic,Ai Agents,Topic,RELATED_TO
+96,Ai Agents,Topic,Legal Trends,Topic,RELATED_TO
+96,Legal Documents,Topic,Justia,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Non-Negative Matrix Factorization,Topic,INCLUDES
+96,Agentic Generative Ai,Topic,Computational Law,Topic,RELATED_TO
+96,Agentic Generative Ai,Topic,Ai,Topic,RELATED_TO
+96,Ryan C. Barron,Author,Agentic Generative Ai,Topic,AUTHORED
+96,Maksim E. Eren,Author,Agentic Generative Ai,Topic,AUTHORED
+96,Olga M. Serafimova,Author,Agentic Generative Ai,Topic,AUTHORED
+96,Cynthia Matuszek,Author,Agentic Generative Ai,Topic,AUTHORED
+96,Boian S. Alexandrov,Author,Agentic Generative Ai,Topic,AUTHORED
+97,Hykge,Topic,Large Language Models,Topic,RELATED_TO
+97,Hykge,Topic,Knowledge Graphs,Topic,RELATED_TO
+97,Xinke Jiang,Author,Hykge,Topic,AUTHORED
+97,Ruizhe Zhang,Author,Hykge,Topic,AUTHORED
+97,Yongxin Xu,Author,Hykge,Topic,AUTHORED
+97,Rihong Qiu,Author,Hykge,Topic,AUTHORED
+97,Yue Fang,Author,Hykge,Topic,AUTHORED
+97,Zhiyuan Wang,Author,Hykge,Topic,AUTHORED
+97,Jinyi Tang,Author,Hykge,Topic,AUTHORED
+97,Hongxin Ding,Author,Hykge,Topic,AUTHORED
+97,Xu Chu,Author,Hykge,Topic,AUTHORED
+97,Junfeng Zhao,Author,Hykge,Topic,AUTHORED
+97,Yasha Wang,Author,Hykge,Topic,AUTHORED
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Han Zhang,Author,AUTHORED
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Langshi Zhou,Author,AUTHORED
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Hanfang Yang,Author,AUTHORED
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Active Self-Reflection Framework For Knowledge Graph Reasoning Arg,Topic,INCLUDES
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Large Language Models (Llms),Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Knowledge Graphs,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Reasoning Process,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Iterative Reasoning,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Structured Graphs,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Knowledge Retrieval,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Reflective Critique,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Reasoning Paths,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Interpretability,Topic,RELATED_TO
+98,Learning To Retrieve And Reason On Knowledge Graph Through Active Self-Reflection,Paper,Knowledge Graph Reasoning Tasks,Topic,RELATED_TO
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Graph-Based Retrieval-Augmented Generation (Rag) Methods,Topic,COVERS
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Hirag,Topic,INCLUDES
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Haoyu Huang,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Yongfeng Huang,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Junjie Yang,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Zhenyu Pan,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Yongqiang Chen,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Kaili Ma,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,Hongzhi Chen,Author,AUTHORED
+99,Retrieval-Augmented Generation With Hierarchical Knowledge,Paper,James Cheng,Author,AUTHORED
