@@ -62,177 +62,169 @@ ClassMethod InsertSQL(embedding As %String) As %Status
     quit sc
 }
 
-ClassMethod DataToEmbeddings(batchSize = 128, sourceField = "entityid", sourceTable = "Entity") As %Status
-{
-    // Converts Data to Embeddings 
-    set sc = $$$OK
-    try {
-        // Init list for later
-        set builtins = ##class(%SYS.Python).Builtins() 
-        set entityList = builtins.list() 
-
-        // Get all Descriptions from downloads table
-        set myquery = "SELECT "_sourceField_" from GraphKB."_sourceTable
-        set tStatement = ##class(%SQL.Statement).%New()
-        $$$ThrowOnError(tStatement.%Prepare(myquery))
-        set rset = tStatement.%Execute()
-        if (rset.%SQLCODE < 0) {
-            throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
-        }
-
-        // Initialize counters
-        set idx = 0
-        set batchIdx = 0
-
-        while rset.%Next(){
-            // Print out progress
-            if (idx # 1000 = 0){
-                write !, "Result Set idx: "_ idx
-            }
-            set idx = idx + 1
-
-            // Add the descriptions to batches
-            set batchIdx = batchIdx + 1
-            do entityList.append(rset.%Get("entityid"))
-
-            // Convert to embedding in batches, as it's more efficient
-            if (batchIdx = batchSize){
-                set embeddingList = ..GetEmbeddingsPy(entityList)
-                for j = 0:1:(batchIdx-1){
-                    set st = ..Insert(embeddingList."__getitem__"(j)) 
-                    $$$ThrowOnError(st)
-                }
-                set entitynList = builtins.list() 
-                set batchIdx = 0
-            }
-        }
-        // Handle leftovers from batch
-        if (batchIdx '= 0) {
-            for j = 0:1:(batchIdx-1){
-                    set st = ..Insert(embeddingList."__getitem__"(j)) 
-                    $$$ThrowOnError(st)
-                }
-        }
-    }
-    catch e {
-        set sc = e.AsStatus()
-        zw sc
-    }
-    quit sc
-}
-
-ClassMethod GetEmbeddingsBatchPy(sentences) [ Language = python ]
-{
-
-    # Converts a list of text into a list of embeddings
-    import json
-    import numpy as np
-    import sentence_transformers
-    
-    # Get embeddings using sentence_transformers
-    # If using windows, set your own cache folder: model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', cache_folder='C:\\InterSystems\\IRIS_LLM\\Mgr\\huggingface_cache')
-    model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-    embeddings = model.encode(sentences)
-
-    # Round
-    embeddings_np = np.round(embeddings, 7)
-
-    # Convert numpy arrays to list of strings
-    embeddings_str_list = [str(embedding.tolist()) for embedding in embeddings_np]
-    return embeddings_str_list
-}
-
-ClassMethod GetEmbeddingsPy(text) [ Language = python ]
-{
-    # Converts a single text to embeddings. 
-    import numpy as np
-    import sentence_transformers
-    #; from sentence_transformers import SentenceTransformer
-
-
-    # Get embedding.  Set your own cache folder,
-    # If using windows, set your own cache folder: model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', cache_folder='C:\\InterSystems\\IRIS_LLM\\Mgr\\huggingface_cache')
-    model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-    #; model = SentenceTransformer("all-MiniLM-L6-v2")
-    embeddings = model.encode([text])[0]
-
-
-    # Round
-    embeddings_np = np.round(embeddings, 7)
-
-    # Convert numpy array to string
-    return str(embeddings_np.tolist())
-}
-
-// Storage Default
+// ClassMethod DataToEmbeddings(batchSize = 128, sourceField = "entityid", sourceTable = "Entity") As %Status
 
 // {
 
-// <Data name="EntityEmbeddingsDefaultData">
+//     // Converts Data to Embeddings 
 
-// <Value name="1">
+//     set sc = $$$OK
 
-// <Value>%%CLASSNAME</Value>
+//     try {
 
-// </Value>
+//         // Init list for later
 
-// <Value name="2">
+//         set builtins = ##class(%SYS.Python).Builtins() 
 
-// <Value>Embedding</Value>
+//         set entityList = builtins.list() 
 
-// </Value>
+//         // Get all Descriptions from downloads table
 
-// </Data>
+//         set myquery = "SELECT "_sourceField_" from GraphKB."_sourceTable
 
-// <DataLocation>^GraphKB.EntityEmbeddingsD</DataLocation>
+//         set tStatement = ##class(%SQL.Statement).%New()
 
-// <DefaultData>EntityEmbeddingsDefaultData</DefaultData>
+//         $$$ThrowOnError(tStatement.%Prepare(myquery))
 
-// <ExtentSize>159</ExtentSize>
+//         set rset = tStatement.%Execute()
 
-// <IdLocation>^GraphKB.EntityEmbeddingsD</IdLocation>
+//         if (rset.%SQLCODE < 0) {
 
-// <IndexLocation>^GraphKB.EntityEmbeddingsI</IndexLocation>
+//             throw ##class(%Exception.SQL).CreateFromSQLCODE(rset.%SQLCODE, rset.%Message)
 
-// <Property name="%%CLASSNAME">
+//         }
 
-// <AverageFieldSize>2</AverageFieldSize>
+//         // Initialize counters
 
-// <Histogram>$lb(.06666666666666666667,0,16,$lb("-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000"),$lb(21,21,21,21,21,21,21,21,21,21,21,21,21,21,21),$lb(758198320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,758198320))</Histogram>
+//         set idx = 0
 
-// <OutlierSelectivity>.999999:</OutlierSelectivity>
+//         set batchIdx = 0
 
-// <Selectivity>0.0001%</Selectivity>
+//         while rset.%Next(){
 
-// </Property>
+//             // Print out progress
 
-// <Property name="%%ID">
+//             if (idx # 1000 = 0){
 
-// <AverageFieldSize>3</AverageFieldSize>
+//                 write !, "Result Set idx: "_ idx
 
-// <Histogram>$lb(.06666666666666666667,1,0,$lb(1,11,22,33,44,55,66,77,88,99,109,119,129,139,149,159),$lb(1,0,0,0,0,0,0,0,0,0,1,1,1,1,1),"")</Histogram>
+//             }
 
-// <Selectivity>1</Selectivity>
+//             set idx = idx + 1
 
-// </Property>
+//             // Add the descriptions to batches
 
-// <Property name="Embedding">
+//             set batchIdx = batchIdx + 1
 
-// <AverageFieldSize>4420</AverageFieldSize>
+//             do entityList.append(rset.%Get("entityid"))
 
-// <Selectivity>1</Selectivity>
+//             // Convert to embedding in batches, as it's more efficient
 
-// </Property>
+//             if (batchIdx = batchSize){
 
-// <SQLMap name="IDKEY">
+//                 set embeddingList = ..GetEmbeddingsBatchPy(entityList)
 
-// <BlockCount>-640</BlockCount>
+//                 for j = 0:1:(batchIdx-1){
 
-// </SQLMap>
+//                     set st = ..Insert(embeddingList."__getitem__"(j)) 
 
-// <StreamLocation>^GraphKB.EntityEmbeddingsS</StreamLocation>
+//                     $$$ThrowOnError(st)
 
-// <Type>%Storage.Persistent</Type>
+//                 }
+
+//                 set entitynList = builtins.list() 
+
+//                 set batchIdx = 0
+
+//             }
+
+//         }
+
+//         // Handle leftovers from batch
+
+//         if (batchIdx '= 0) {
+
+//             for j = 0:1:(batchIdx-1){
+
+//                     set st = ..Insert(embeddingList."__getitem__"(j)) 
+
+//                     $$$ThrowOnError(st)
+
+//                 }
+
+//         }
+
+//     }
+
+//     catch e {
+
+//         set sc = e.AsStatus()
+
+//         zw sc
+
+//     }
+
+//     quit sc
+
+// }
+
+// ClassMethod GetEmbeddingsBatchPy(sentences) [ Language = python ]
+
+// {
+
+//     # Converts a list of text into a list of embeddings
+
+//     import json
+
+//     import numpy as np
+
+//     import sentence_transformers
+
+//     # Get embeddings using sentence_transformers
+
+//     # If using windows, set your own cache folder: model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', cache_folder='C:\\InterSystems\\IRIS_LLM\\Mgr\\huggingface_cache')
+
+//     model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+
+//     embeddings = model.encode(sentences)
+
+//     # Round
+
+//     embeddings_np = np.round(embeddings, 7)
+
+//     # Convert numpy arrays to list of strings
+
+//     embeddings_str_list = [str(embedding.tolist()) for embedding in embeddings_np]
+
+//     return embeddings_str_list
+
+// }
+
+// ClassMethod GetEmbeddingsPy(text) [ Language = python ]
+
+// {
+
+//     # Converts a single text to embeddings. 
+
+//     import numpy as np
+
+//     import sentence_transformers
+
+//     # Get embedding.  Set your own cache folder,
+
+//     # If using windows, set your own cache folder: model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', cache_folder='C:\\InterSystems\\IRIS_LLM\\Mgr\\huggingface_cache')
+
+//     model = sentence_transformers.SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+
+//     embeddings = model.encode([text])[0]
+
+//     # Round
+
+//     embeddings_np = np.round(embeddings, 7)
+
+//     # Convert numpy array to string
+
+//     return str(embeddings_np.tolist())
 
 // }
 
@@ -248,8 +240,27 @@ Storage Default
 </Data>
 <DataLocation>^GraphKB.EntityEmbeddingsD</DataLocation>
 <DefaultData>EntityEmbeddingsDefaultData</DefaultData>
+<ExtentSize>159</ExtentSize>
 <IdLocation>^GraphKB.EntityEmbeddingsD</IdLocation>
 <IndexLocation>^GraphKB.EntityEmbeddingsI</IndexLocation>
+<Property name="%%CLASSNAME">
+<AverageFieldSize>2</AverageFieldSize>
+<Histogram>$lb(.06666666666666666667,0,16,$lb("-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000","-10000000000000000000"),$lb(21,21,21,21,21,21,21,21,21,21,21,21,21,21,21),$lb(758198320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,758198320))</Histogram>
+<OutlierSelectivity>.999999:</OutlierSelectivity>
+<Selectivity>0.0001%</Selectivity>
+</Property>
+<Property name="%%ID">
+<AverageFieldSize>3</AverageFieldSize>
+<Histogram>$lb(.06666666666666666667,1,0,$lb(1,11,22,33,44,55,66,77,88,99,109,119,129,139,149,159),$lb(1,0,0,0,0,0,0,0,0,0,1,1,1,1,1),"")</Histogram>
+<Selectivity>1</Selectivity>
+</Property>
+<Property name="Embedding">
+<AverageFieldSize>4420</AverageFieldSize>
+<Selectivity>1</Selectivity>
+</Property>
+<SQLMap name="IDKEY">
+<BlockCount>-640</BlockCount>
+</SQLMap>
 <StreamLocation>^GraphKB.EntityEmbeddingsS</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }
