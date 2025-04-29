@@ -1,6 +1,5 @@
 
 
-
 import os
 import warnings
 import ast
@@ -183,15 +182,3 @@ def llm_answer_for_batch_rag(batch, query, cutoff=True):
 
     return answer_lines
 
-# irispy.classMethodValue("GraphKB.Documents", "LoadData", docsfile)
-# irispy.classMethodValue("GraphKB.Entity", "LoadData", entitiesfile)
-# irispy.classMethodValue("GraphKB.Relations", "LoadData", relationsfile)
-
-
-# irispy.classMethodValue("GraphKB.DocumentsEmbeddings","LoadData",papersembeddingsfile)
-# irispy.classMethodValue("GraphKB.EntityEmbeddings","LoadData",entitiesembeddingsfile)
-
-# irispy.classMethodValue("GraphKB.EntityEmbeddings", "DataToEmbeddings")
-
-
-# print(ask_query("Summarize the most significant papers in immunology", items=10))
