@@ -4,3 +4,6 @@ langchain
 langchain_openai
 intersystems-irispython
 iris
+numpy
+sentence_transformers
+
