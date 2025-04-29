@@ -178,7 +178,7 @@ except Exception as e:
     print(f"Connection failed: {e}")
 
 if conn:
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "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"
 
 irispy = iris.createIRIS(conn)
 

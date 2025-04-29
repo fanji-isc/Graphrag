@@ -50,7 +50,7 @@ def home():
      
         answer2 = ask_query(question, graphitems=0, vectoritems=100)
 
-    return render_template("index.html", question=question, answer1=answer1, answer2=answer2)
+    return render_template("index1.html", question=question, answer1=answer1, answer2=answer2)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
