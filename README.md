@@ -13,6 +13,7 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 
 Clone/git pull the repo into any local directory
 
+Replace your OPEN AI Key in iris_db.py
 
 Open the terminal in this directory and call the command to build and run the two containes:
 *Note: Users running containers on a Linux CLI, should use "docker compose" instead of "docker-compose"*
@@ -22,13 +23,8 @@ Open the terminal in this directory and call the command to build and run the tw
 ```
 $ docker-compose up -d
 ```
+The UI should be accessible through [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-*Note: this may take a while*
-
-
-The jupyter notebook that contains our graphrag implementation is accessible in the following link after starting docker: [http://localhost:4200/lab/tree/workspace/graphkb-dataprep.ipynb](http://localhost:4200/lab/tree/workspace/graphkb-dataprep.ipynb)
-
-**Password:** admin
 
 The IRIS management portal should be accessible through: [http://localhost:9092/csp/sys/UtilHome.csp](http://localhost:9092/csp/sys/UtilHome.csp)
 
