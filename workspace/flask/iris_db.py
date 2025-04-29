@@ -178,7 +178,7 @@ except Exception as e:
     print(f"Connection failed: {e}")
 
 if conn:
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "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"
 
 irispy = iris.createIRIS(conn)
 
@@ -263,16 +263,25 @@ def global_query(query, items=50, vector_search=10, batch_size=10):
 
 #     response = llm_answer_for_batch(docs, query, False)
 #     return response
-def ask_query(query, graphitems=50,vectoritems=50, method='local'):
+def ask_query(query, graphitems=100,vectoritems=0, method='local'):
     
     user_query_entity = get_embeddings(query)
     user_query_embeddings = get_embeddings(query)
     with HiddenPrints():
       docs = [irispy.classMethodValue("GraphKB.Query","Search",user_query_entity,user_query_embeddings,graphitems,vectoritems)]
         
-    response = llm_answer_for_batch(docs, query, False)
+    response = llm_answer_for_batch_graphrag(docs, query, False)
     return response
 
+def ask_query(query, graphitems=0,vectoritems=100, method='local'):
+    
+    user_query_entity = get_embeddings(query)
+    user_query_embeddings = get_embeddings(query)
+    with HiddenPrints():
+      docs = [irispy.classMethodValue("GraphKB.Query","Search",user_query_entity,user_query_embeddings,graphitems,vectoritems)]
+        
+    response = llm_answer_for_batch_rag(docs, query, False)
+    return response
 
 def llm_answer_summarize(query, answers):
     llm = ChatOpenAI(temperature=0, model_name=model)
@@ -287,15 +296,34 @@ def llm_answer_summarize(query, answers):
     response = chain.invoke({"question": query, 'answers': answers})
     return response
 
-def llm_answer_for_batch(batch, query, cutoff=True):
+def llm_answer_for_batch_graphrag(batch, query, cutoff=True):
     llm = ChatOpenAI(temperature=0, model_name=model)
-    prompt_text = """You are an assistant for question-answering tasks. 
+    prompt_text = """You are an expert assistant for graph-based academic search. 
+    You are given a graph context of academic papers, authors, abstract, and related information.
     Use the following pieces of retrieved context from a graph database to answer the question. 
-    """ + (("Use three sentences maximum and keep the answer concise:") if cutoff else " ") + """
+    """ + (("keep the answer detailed, complete and with supporting references,list as much info as you can:") if cutoff else " ") + """
     Question: {question}  
     Graph Context: {graph_context}
     Answer: 
     """
+    prompt = ChatPromptTemplate.from_template(prompt_text)
+    chain = prompt | llm | StrOutputParser()
+    response = chain.invoke({"question": query, 'graph_context': batch})
+    # return response
+    answer_lines = [line.strip() for line in response.split('\n') if line.strip()]
+
+    return answer_lines
+
+def llm_answer_for_batch_rag(batch, query, cutoff=True):
+    llm = ChatOpenAI(temperature=0, model_name=model)
+    prompt_text = """You are an assistant for question-answering tasks. 
+    Use the following pieces of retrieved context to answer the question. 
+    """ + (("Use three sentences maximum and keep the answer concise. If you don't know, just say I don't know:") if cutoff else " ") + """
+    Question: {question}  
+    Graph Context: {graph_context}
+    Answer: 
+    """
+
     prompt = ChatPromptTemplate.from_template(prompt_text)
     chain = prompt | llm | StrOutputParser()
     response = chain.invoke({"question": query, 'graph_context': batch})

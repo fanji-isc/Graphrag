@@ -48,7 +48,7 @@ ClassMethod Search(userQueryEntity As %String, userQueryEmbedding As %String, gr
              _ "FROM GraphKB.Relations rel " 
              _ "JOIN GraphKB.Documents docs ON rel.docid = docs.docid " 
              _ "WHERE rel.source %INLIST ? OR rel.target %INLIST ? " 
-             _ "GROUP BY rel.docid "
+             _ "GROUP BY rel.docid,rel.source, rel.target "
              _ "ORDER by count(rel.docid) DESC "
              _ "UNION " 
              _ "SELECT TOP ?  docs.docid,'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract " 
@@ -59,6 +59,8 @@ ClassMethod Search(userQueryEntity As %String, userQueryEmbedding As %String, gr
 
         } elseif semanticSearchCount > 0 { // Semantic search 
             set myquery = "SELECT TOP ? 'abstract:'||docs.abstract||' authors:'||docs.authors ||' title:'||docs.title as abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+            #; set myquery = "SELECT TOP ? 'abstract:'||docs.abstract||' title:'||docs.title as abstract FROM GraphKB.DocumentsEmbeddings emb JOIN GraphKB.Documents docs ON emb.ID = docs.ID ORDER BY VECTOR_DOT_PRODUCT(emb.Embedding, TO_VECTOR(?)) DESC"
+
 
         }
         set tStatement = ##class(%SQL.Statement).%New()

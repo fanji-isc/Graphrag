@@ -74,6 +74,19 @@
             font-size: 16px;
             color: #555;
         }
+
+        .answers-container {
+            display: flex;
+            gap: 20px; /* Space between answer boxes */
+            justify-content: center; /* Center them horizontally */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        .answer-box {
+            flex: 1;
+            min-width: 250px; /* Make sure each box doesn't get too small */
+        }
+
     </style>
 </head>
 <body>
@@ -85,18 +98,10 @@
         <button type="submit">Ask</button>
     </form>
 
-    {% if answer %}
+    <!-- {% if answer %}
         <div class="answer-box">
             <h3>Answer:</h3>
-            <!-- {% if answer is iterable and answer is not string %}
-                <ul>
-                    {% for item in answer %}
-                        <li>✅ {{ item }}</li>
-                    {% endfor %}
-                </ul>
-            {% else %}
-                <p>{{ answer }}</p>
-            {% endif %} -->
+
 
             {% if answer is iterable and answer is not string %}
             <ul>
@@ -108,7 +113,44 @@
                 <p>{{ answer }}</p>
             {% endif %}
         </div>
-    {% endif %}
+    {% endif %} -->
+
+
+
+    {% if answer1 or answer2 %}
+    <div class="answers-container">
+        {% if answer1 %}
+            <div class="answer-box">
+                <h3>Graph RAG:</h3>
+                {% if answer1 is iterable and answer1 is not string %}
+                <ul>
+                    {% for item in answer1 %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                    <p>{{ answer1 }}</p>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {% if answer2 %}
+            <div class="answer-box">
+                <h3>Rag:</h3>
+                {% if answer2 is iterable and answer2 is not string %}
+                <ul>
+                    {% for item in answer2 %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                    <p>{{ answer2 }}</p>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}
+
 </div>
 
 </body>
