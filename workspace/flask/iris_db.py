@@ -28,7 +28,7 @@ except Exception as e:
     print(f"Connection failed: {e}")
 
 if conn:
-    os.environ["OPENAI_API_KEY"] = "YOUR--KEY"
+    os.environ["OPENAI_API_KEY"] = "Your-Key"
 
 irispy = iris.createIRIS(conn)
 
@@ -113,7 +113,7 @@ def global_query(query, items=50, vector_search=10, batch_size=10):
 
 #     response = llm_answer_for_batch(docs, query, False)
 #     return response
-def ask_query(query, graphitems=100,vectoritems=0, method='local'):
+def ask_query_graphrag(query, graphitems=100,vectoritems=0, method='local'):
     
     user_query_entity = get_embeddings(query)
     user_query_embeddings = get_embeddings(query)
@@ -123,7 +123,7 @@ def ask_query(query, graphitems=100,vectoritems=0, method='local'):
     response = llm_answer_for_batch_graphrag(docs, query, False)
     return response
 
-def ask_query(query, graphitems=0,vectoritems=100, method='local'):
+def ask_query_rag(query, graphitems=0,vectoritems=100, method='local'):
     
     user_query_entity = get_embeddings(query)
     user_query_embeddings = get_embeddings(query)
@@ -151,7 +151,7 @@ def llm_answer_for_batch_graphrag(batch, query, cutoff=True):
     prompt_text = """You are an expert assistant for graph-based academic search. 
     You are given a graph context of academic papers, authors, abstract, and related information.
     Use the following pieces of retrieved context from a graph database to answer the question. 
-    """ + (("keep the answer detailed, complete and with supporting references,list as much info as you can:") if cutoff else " ") + """
+    """ + (("keep the answer detailed, complete and with supporting references:") if cutoff else " ") + """
     Question: {question}  
     Graph Context: {graph_context}
     Answer: 

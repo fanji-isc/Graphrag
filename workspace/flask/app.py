@@ -14,7 +14,7 @@
 # if __name__ == "__main__":
 #     app.run(host='0.0.0.0', port=5000,debug=True)
 from flask import Flask, render_template, request, jsonify
-from iris_db import extract_query_entities, global_query, ask_query, llm_answer_summarize, llm_answer_for_batch_graphrag,llm_answer_for_batch_rag
+from iris_db import extract_query_entities, global_query, ask_query_rag,ask_query_graphrag, llm_answer_summarize, llm_answer_for_batch_graphrag,llm_answer_for_batch_rag
 # from sentence_transformers import SentenceTransformer
 
 
@@ -46,9 +46,9 @@ def home():
         action = request.form.get("action")  # Which button was clicked
 
        
-        answer1 = ask_query(question, graphitems=100, vectoritems=0)
+        answer1 = ask_query_graphrag(question, graphitems=100, vectoritems=0)
      
-        answer2 = ask_query(question, graphitems=0, vectoritems=100)
+        answer2 = ask_query_rag(question, graphitems=0, vectoritems=100)
 
     return render_template("index1.html", question=question, answer1=answer1, answer2=answer2)
 

@@ -15,21 +15,35 @@
     }
 
     #loading-overlay {
-        display: none;
-        position: fixed;
-        top: 0; left: 0;
-        width: 100vw; height: 100vh;
-        background-color: rgba(255, 255, 255, 0.8);
-        color: #2b368e;
-        font-size: 20px;
-        font-weight: 500;
-        font-family: "Segoe UI", sans-serif;
-        z-index: 1000;
-        justify-content: center;
-        align-items: center;
-        }
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+  }
 
+  .spinner {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top: 5px solid white;
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+    margin-bottom: 16px;
+  }
 
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
     body {
       margin: 0;
@@ -240,17 +254,6 @@
           <button type="submit" class="btn-primary">Compare Answers</button>
         </div>
       
-        <button type="button" class="btn-secondary" id="sample-btn">Sample Questions</button>
-
-        <div id="sample-questions" style="display: none; margin-top: 12px;">
-            <ul id="sample-list" style="padding-left: 20px; text-align: left; list-style-type: none;">
-                <li><span class="sample-question">What data do you have?</span></li>
-                <!-- <li><span class="sample-question">Who has written the most papers about RAG?</span></li> -->
-                <li><span class="sample-question">Who has written the most papers about knowledge graph?</span></li>
-              </ul>
-              
-              
-        </div>
         
 
       </form>
@@ -290,7 +293,7 @@
     </div>
     {% endif %}
   </div>
-
+<!-- 
   <div id="loading-overlay">Searching relevant documents...	.</div>
 
 
@@ -302,27 +305,29 @@
       overlay.style.display = "flex";
     });
   
-    const sampleBtn = document.getElementById('sample-btn');
-    const sampleBox = document.getElementById('sample-questions');
-    const inputBox = document.querySelector('input[name="question"]');
+
+  </script> -->
+
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    Searching relevant documents...
+  </div>
   
-    sampleBtn.addEventListener('click', () => {
-      if (sampleBox.style.display === "none" || sampleBox.style.display === "") {
-        sampleBox.style.display = "block";
-      } else {
-        sampleBox.style.display = "none";
-      }
+  <script>
+    const form = document.querySelector("form");
+    const overlay = document.getElementById("loading-overlay");
+  
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      overlay.style.display = "flex";
+      form.submit();
     });
   
-    // ✅ Handle clicking on sample questions
-    document.querySelectorAll('.sample-question').forEach(button => {
-      button.addEventListener('click', () => {
-        inputBox.value = button.textContent;
-        sampleBox.style.display = "none";  // Hide the list after selecting
-      });
+    // 🧼 Hide spinner when page first loads
+    window.addEventListener("load", () => {
+      overlay.style.display = "none";
     });
   </script>
-  
   
   
 

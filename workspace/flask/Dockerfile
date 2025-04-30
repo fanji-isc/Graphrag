@@ -10,12 +10,12 @@ COPY . /app
 # Install dependencies
 RUN pip install -r requirements.txt
 
-ENV PYTHONPATH="usr/irissys/lib/python3.10/site-packages:/opt/conda/lib/python3.10/site-packages:/app"
+# ENV PYTHONPATH="usr/irissys/lib/python3.10/site-packages:/opt/conda/lib/python3.10/site-packages:/app"
 
 # Expose the Flask app port
 EXPOSE 5000
 
 # Command to run the Flask application
-CMD ["python", "app.py"]
+CMD ["python", "app.py", "--debug", "true"]
 # CMD ["sh", "-c", "python iris_db.py && python app.py"]
 
