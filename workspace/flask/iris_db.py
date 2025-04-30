@@ -28,7 +28,7 @@ except Exception as e:
     print(f"Connection failed: {e}")
 
 if conn:
-    os.environ["OPENAI_API_KEY"] = "Your-Key"
+    os.environ["OPENAI_API_KEY"] = "REMOVED"
 
 irispy = iris.createIRIS(conn)
 
@@ -80,32 +80,32 @@ def get_embeddings(text):
     return str(rounded)
 
 # Langchain-related query functions
-def extract_query_entities(query):
-    prompt_text = '''Based on the following example, extract entities from the user provided queries.
-                    Below are a number of example queries and their extracted entities. Provide only the entities.
-                    'How many wars was George Washington involved in' -> ['War', 'George Washington'].\n
-                    'What are the relationships between the employees' -> ['relationships','employees].\n
+# def extract_query_entities(query):
+#     prompt_text = '''Based on the following example, extract entities from the user provided queries.
+#                     Below are a number of example queries and their extracted entities. Provide only the entities.
+#                     'How many wars was George Washington involved in' -> ['War', 'George Washington'].\n
+#                     'What are the relationships between the employees' -> ['relationships','employees].\n
 
-                    For the following query, extract entities as in the above example.\n query: {content}'''
+#                     For the following query, extract entities as in the above example.\n query: {content}'''
 
-    llm = ChatOpenAI(temperature=0, model_name=model)
-    prompt = ChatPromptTemplate.from_template(prompt_text)
-    chain = prompt | llm | StrOutputParser()
-    response = chain.invoke({"content": query})
-    return ast.literal_eval(response)
+#     llm = ChatOpenAI(temperature=0, model_name=model)
+#     prompt = ChatPromptTemplate.from_template(prompt_text)
+#     chain = prompt | llm | StrOutputParser()
+#     response = chain.invoke({"content": query})
+#     return ast.literal_eval(response)
 
-def global_query(query, items=50, vector_search=10, batch_size=10):
-    with HiddenPrints():
-        docs = irispy.classMethodValue("GraphKB.Query", "Search", query, items/2, items/2)
-        docs = docs.split('\n\r\n')
+# def global_query(query, items=50, vector_search=10, batch_size=10):
+#     with HiddenPrints():
+#         docs = irispy.classMethodValue("GraphKB.Query", "Search", query, items/2, items/2)
+#         docs = docs.split('\n\r\n')
 
-    answers = []
-    for i in range(0, len(docs), batch_size):
-        batch = docs[i:i+batch_size]
-        response = llm_answer_for_batch(batch, query)
-        answers.append(response)
+#     answers = []
+#     for i in range(0, len(docs), batch_size):
+#         batch = docs[i:i+batch_size]
+#         response = llm_answer_for_batch(batch, query)
+#         answers.append(response)
 
-    return llm_answer_summarize(query, answers)
+#     return llm_answer_summarize(query, answers)
 
 # def ask_query(query, items=10, method='local'):
 #     with HiddenPrints():
@@ -133,18 +133,18 @@ def ask_query_rag(query, graphitems=0,vectoritems=100, method='local'):
     response = llm_answer_for_batch_rag(docs, query, False)
     return response
 
-def llm_answer_summarize(query, answers):
-    llm = ChatOpenAI(temperature=0, model_name=model)
-    prompt_text = """You are an assistant for question-answering tasks. 
-    Use the following answers to a query derived from analyzing batches of documents. Please compile these answers into one overall answer. 
-    Question: {question}  
-    Previous Answers: {answers}
-    Answer: 
-    """
-    prompt = ChatPromptTemplate.from_template(prompt_text)
-    chain = prompt | llm | StrOutputParser()
-    response = chain.invoke({"question": query, 'answers': answers})
-    return response
+# def llm_answer_summarize(query, answers):
+#     llm = ChatOpenAI(temperature=0, model_name=model)
+#     prompt_text = """You are an assistant for question-answering tasks. 
+#     Use the following answers to a query derived from analyzing batches of documents. Please compile these answers into one overall answer. 
+#     Question: {question}  
+#     Previous Answers: {answers}
+#     Answer: 
+#     """
+#     prompt = ChatPromptTemplate.from_template(prompt_text)
+#     chain = prompt | llm | StrOutputParser()
+#     response = chain.invoke({"question": query, 'answers': answers})
+#     return response
 
 def llm_answer_for_batch_graphrag(batch, query, cutoff=True):
     llm = ChatOpenAI(temperature=0, model_name=model)

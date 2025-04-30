@@ -14,7 +14,7 @@
 # if __name__ == "__main__":
 #     app.run(host='0.0.0.0', port=5000,debug=True)
 from flask import Flask, render_template, request, jsonify
-from iris_db import extract_query_entities, global_query, ask_query_rag,ask_query_graphrag, llm_answer_summarize, llm_answer_for_batch_graphrag,llm_answer_for_batch_rag
+from iris_db import  ask_query_rag,ask_query_graphrag
 # from sentence_transformers import SentenceTransformer
 
 
