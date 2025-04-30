@@ -28,7 +28,7 @@ except Exception as e:
     print(f"Connection failed: {e}")
 
 if conn:
-    os.environ["OPENAI_API_KEY"] = "REMOVED"
+    os.environ["OPENAI_API_KEY"] = "your-key"
 
 irispy = iris.createIRIS(conn)
 
