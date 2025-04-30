@@ -2,4 +2,8 @@
 iris-main.log
 .env
 .git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
